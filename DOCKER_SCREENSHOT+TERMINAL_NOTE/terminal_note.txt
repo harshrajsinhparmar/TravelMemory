@@ -1,0 +1,852 @@
+
+C:\Users\Hirensinh\Documents\GitHub\TravelMemory>CODE .
+
+C:\Users\Hirensinh\Documents\GitHub\TravelMemory>docker-compose up --build
+time="2026-07-01T17:12:41+05:30" level=warning msg="C:\\Users\\Hirensinh\\Documents\\GitHub\\TravelMemory\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+unable to get image 'mongo:latest': failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+
+C:\Users\Hirensinh\Documents\GitHub\TravelMemory>docker-compose up --build
+time="2026-07-01T17:13:59+05:30" level=warning msg="C:\\Users\\Hirensinh\\Documents\\GitHub\\TravelMemory\\docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion"
+unable to get image 'travelmemory-backend': failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+
+C:\Users\Hirensinh\Documents\GitHub\TravelMemory>docker-compose up --build
+unable to get image 'travelmemory-backend': failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+
+C:\Users\Hirensinh\Documents\GitHub\TravelMemory>docker-compose up --build
+unable to get image 'mongo:latest': failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+
+C:\Users\Hirensinh\Documents\GitHub\TravelMemory>docker-compose up --build
+unable to get image 'mongo:latest': failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+
+C:\Users\Hirensinh\Documents\GitHub\TravelMemory>docker-compose up --build
+#1 [internal] load local bake definitions
+#1 reading from stdin 1.10kB done
+#1 DONE 0.0s
+
+#2 [backend internal] load build definition from Dockerfile
+#2 transferring dockerfile: 160B 0.0s done
+#2 DONE 0.1s
+
+#3 [frontend internal] load build definition from Dockerfile
+#3 transferring dockerfile: 156B 0.0s done
+#3 DONE 0.1s
+
+#4 [frontend internal] load metadata for docker.io/library/node:18-alpine
+#4 ...
+
+#5 [auth] library/node:pull token for registry-1.docker.io
+#5 DONE 0.0s
+
+#4 [frontend internal] load metadata for docker.io/library/node:18-alpine
+#4 DONE 4.2s
+
+#6 [backend internal] load .dockerignore
+#6 transferring context: 72B 0.0s done
+#6 DONE 0.1s
+
+#7 [frontend internal] load .dockerignore
+#7 transferring context: 64B 0.0s done
+#7 DONE 0.1s
+
+#8 [frontend 1/5] FROM docker.io/library/node:18-alpine@sha256:8d6421d663b4c28fd3ebc498332f249011d118945588d0a35cb9bc4b8ca09d9e
+#8 resolve docker.io/library/node:18-alpine@sha256:8d6421d663b4c28fd3ebc498332f249011d118945588d0a35cb9bc4b8ca09d9e
+#8 resolve docker.io/library/node:18-alpine@sha256:8d6421d663b4c28fd3ebc498332f249011d118945588d0a35cb9bc4b8ca09d9e 0.1s done
+#8 ...
+
+#9 [backend internal] load build context
+#9 transferring context: 50.80kB 0.3s done
+#9 DONE 0.5s
+
+#10 [frontend internal] load build context
+#10 transferring context: 751.90kB 0.5s done
+#10 DONE 0.6s
+
+#8 [frontend 1/5] FROM docker.io/library/node:18-alpine@sha256:8d6421d663b4c28fd3ebc498332f249011d118945588d0a35cb9bc4b8ca09d9e
+#8 sha256:25ff2da83641908f65c3a74d80409d6b1b62ccfaab220b9ea70b80df5a2e0549 0B / 446B 0.2s
+#8 sha256:1e5a4c89cee5c0826c540ab06d4b6b491c96eda01837f430bd47f0d26702d6e3 0B / 1.26MB 0.2s
+#8 sha256:dd71dde834b5c203d162902e6b8994cb2309ae049a0eabc4efea161b2b5a3d0e 0B / 40.01MB 0.2s
+#8 sha256:f18232174bc91741fdf3da96d85011092101a032a93a388b79e99e69c2d5c870 0B / 3.64MB 0.2s
+#8 sha256:25ff2da83641908f65c3a74d80409d6b1b62ccfaab220b9ea70b80df5a2e0549 446B / 446B 0.4s done
+#8 sha256:dd71dde834b5c203d162902e6b8994cb2309ae049a0eabc4efea161b2b5a3d0e 2.10MB / 40.01MB 2.7s
+#8 sha256:1e5a4c89cee5c0826c540ab06d4b6b491c96eda01837f430bd47f0d26702d6e3 1.26MB / 1.26MB 3.6s
+#8 sha256:dd71dde834b5c203d162902e6b8994cb2309ae049a0eabc4efea161b2b5a3d0e 4.19MB / 40.01MB 3.4s
+#8 sha256:1e5a4c89cee5c0826c540ab06d4b6b491c96eda01837f430bd47f0d26702d6e3 1.26MB / 1.26MB 3.7s done
+#8 sha256:dd71dde834b5c203d162902e6b8994cb2309ae049a0eabc4efea161b2b5a3d0e 6.29MB / 40.01MB 3.9s
+#8 sha256:dd71dde834b5c203d162902e6b8994cb2309ae049a0eabc4efea161b2b5a3d0e 8.39MB / 40.01MB 4.2s
+#8 sha256:dd71dde834b5c203d162902e6b8994cb2309ae049a0eabc4efea161b2b5a3d0e 10.49MB / 40.01MB 4.5s
+#8 sha256:dd71dde834b5c203d162902e6b8994cb2309ae049a0eabc4efea161b2b5a3d0e 12.58MB / 40.01MB 4.9s
+#8 sha256:dd71dde834b5c203d162902e6b8994cb2309ae049a0eabc4efea161b2b5a3d0e 14.68MB / 40.01MB 5.4s
+#8 sha256:f18232174bc91741fdf3da96d85011092101a032a93a388b79e99e69c2d5c870 0B / 3.64MB 5.2s
+#8 sha256:f18232174bc91741fdf3da96d85011092101a032a93a388b79e99e69c2d5c870 1.05MB / 3.64MB 5.4s
+#8 sha256:dd71dde834b5c203d162902e6b8994cb2309ae049a0eabc4efea161b2b5a3d0e 16.78MB / 40.01MB 5.8s
+#8 sha256:dd71dde834b5c203d162902e6b8994cb2309ae049a0eabc4efea161b2b5a3d0e 18.87MB / 40.01MB 6.3s
+#8 sha256:dd71dde834b5c203d162902e6b8994cb2309ae049a0eabc4efea161b2b5a3d0e 20.97MB / 40.01MB 6.7s
+#8 sha256:f18232174bc91741fdf3da96d85011092101a032a93a388b79e99e69c2d5c870 2.10MB / 3.64MB 7.0s
+#8 sha256:dd71dde834b5c203d162902e6b8994cb2309ae049a0eabc4efea161b2b5a3d0e 23.07MB / 40.01MB 7.5s
+#8 sha256:dd71dde834b5c203d162902e6b8994cb2309ae049a0eabc4efea161b2b5a3d0e 25.17MB / 40.01MB 7.9s
+#8 sha256:f18232174bc91741fdf3da96d85011092101a032a93a388b79e99e69c2d5c870 3.15MB / 3.64MB 8.1s
+#8 sha256:f18232174bc91741fdf3da96d85011092101a032a93a388b79e99e69c2d5c870 3.64MB / 3.64MB 8.6s done
+#8 extracting sha256:f18232174bc91741fdf3da96d85011092101a032a93a388b79e99e69c2d5c870
+#8 sha256:dd71dde834b5c203d162902e6b8994cb2309ae049a0eabc4efea161b2b5a3d0e 27.26MB / 40.01MB 9.0s
+#8 extracting sha256:f18232174bc91741fdf3da96d85011092101a032a93a388b79e99e69c2d5c870 0.7s done
+#8 sha256:dd71dde834b5c203d162902e6b8994cb2309ae049a0eabc4efea161b2b5a3d0e 30.41MB / 40.01MB 9.6s
+#8 extracting sha256:f18232174bc91741fdf3da96d85011092101a032a93a388b79e99e69c2d5c870 0.7s done
+#8 sha256:dd71dde834b5c203d162902e6b8994cb2309ae049a0eabc4efea161b2b5a3d0e 32.51MB / 40.01MB 9.9s
+#8 sha256:dd71dde834b5c203d162902e6b8994cb2309ae049a0eabc4efea161b2b5a3d0e 35.65MB / 40.01MB 10.2s
+#8 sha256:dd71dde834b5c203d162902e6b8994cb2309ae049a0eabc4efea161b2b5a3d0e 37.75MB / 40.01MB 10.6s
+#8 sha256:dd71dde834b5c203d162902e6b8994cb2309ae049a0eabc4efea161b2b5a3d0e 40.01MB / 40.01MB 11.1s
+#8 sha256:dd71dde834b5c203d162902e6b8994cb2309ae049a0eabc4efea161b2b5a3d0e 40.01MB / 40.01MB 11.2s done
+#8 extracting sha256:dd71dde834b5c203d162902e6b8994cb2309ae049a0eabc4efea161b2b5a3d0e
+#8 extracting sha256:dd71dde834b5c203d162902e6b8994cb2309ae049a0eabc4efea161b2b5a3d0e 1.8s done
+#8 extracting sha256:dd71dde834b5c203d162902e6b8994cb2309ae049a0eabc4efea161b2b5a3d0e 1.8s done
+#8 extracting sha256:1e5a4c89cee5c0826c540ab06d4b6b491c96eda01837f430bd47f0d26702d6e3 0.1s done
+#8 extracting sha256:25ff2da83641908f65c3a74d80409d6b1b62ccfaab220b9ea70b80df5a2e0549 0.0s done
+#8 extracting sha256:25ff2da83641908f65c3a74d80409d6b1b62ccfaab220b9ea70b80df5a2e0549 0.0s done
+#8 DONE 13.8s
+
+#11 [frontend 2/5] WORKDIR /app
+#11 DONE 0.2s
+
+#12 [backend 3/5] COPY package*.json ./
+#12 DONE 0.1s
+
+#13 [frontend 3/5] COPY package*.json ./
+#13 DONE 0.1s
+
+#14 [frontend 4/5] RUN npm install
+#14 ...
+
+#15 [backend 4/5] RUN npm install
+#15 7.020
+#15 7.020 added 117 packages, and audited 118 packages in 6s
+#15 7.020
+#15 7.020 13 packages are looking for funding
+#15 7.020   run `npm fund` for details
+#15 7.112
+#15 7.112 18 vulnerabilities (3 low, 3 moderate, 11 high, 1 critical)
+#15 7.112
+#15 7.112 To address issues that do not require attention, run:
+#15 7.112   npm audit fix
+#15 7.112
+#15 7.112 To address all issues (including breaking changes), run:
+#15 7.112   npm audit fix --force
+#15 7.112
+#15 7.112 Run `npm audit` for details.
+#15 7.117 npm notice
+#15 7.117 npm notice New major version of npm available! 10.8.2 -> 11.18.0
+#15 7.117 npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.18.0
+#15 7.117 npm notice To update run: npm install -g npm@11.18.0
+#15 7.117 npm notice
+#15 DONE 7.7s
+
+#14 [frontend 4/5] RUN npm install
+#14 ...
+
+#16 [backend 5/5] COPY . .
+#16 DONE 0.1s
+
+#17 [backend] exporting to image
+#17 exporting layers
+#17 exporting layers 2.0s done
+#17 exporting manifest sha256:958b6e878b6a37188e17074e80ef46e91e256d4c4973c7f6603d2f95c6b8b649 0.0s done
+#17 exporting config sha256:907f7812cf77f8bed12ee5558c753f648dd63735efd139eaf9fa37dc9d1c0d38 0.0s done
+#17 exporting attestation manifest sha256:32a51f56f81333708ef827cf3eba3bf4796e946200f34d706fc2e9743d885b55 0.1s done
+#17 exporting manifest list sha256:add44f2822874a825194dae4a06cfb915df26f2ee96c7930b6ef92eb2cebb94c
+#17 exporting manifest list sha256:add44f2822874a825194dae4a06cfb915df26f2ee96c7930b6ef92eb2cebb94c 0.0s done
+#17 naming to docker.io/library/travelmemory-backend:latest done
+#17 unpacking to docker.io/library/travelmemory-backend:latest
+#17 unpacking to docker.io/library/travelmemory-backend:latest 1.5s done
+#17 DONE 3.8s
+
+#14 [frontend 4/5] RUN npm install
+#14 ...
+
+#18 [backend] resolving provenance for metadata file
+#18 DONE 0.1s
+
+#14 [frontend 4/5] RUN npm install
+#14 15.11 npm warn deprecated w3c-hr-time@1.0.2: Use your platform's native performance.now() and performance.timeOrigin.
+#14 15.62 npm warn deprecated stable@0.1.8: Modern JS already guarantees Array#sort() is a stable sort, so this library is deprecated. See the compatibility table on MDN: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort#browser_compatibility
+#14 15.79 npm warn deprecated sourcemap-codec@1.4.8: Please use @jridgewell/sourcemap-codec instead
+#14 15.97 npm warn deprecated rollup-plugin-terser@7.0.2: This package has been deprecated and is no longer maintained. Please use @rollup/plugin-terser
+#14 17.08 npm warn deprecated workbox-cacheable-response@6.6.0: workbox-background-sync@6.6.0
+#14 24.90 npm warn deprecated svgo@1.3.2: This SVGO version is no longer supported. Upgrade to v2.x.x.
+#14 80.76
+#14 80.76 added 1504 packages, and audited 1505 packages in 1m
+#14 80.76
+#14 80.76 236 packages are looking for funding
+#14 80.76   run `npm fund` for details
+#14 80.92
+#14 80.92 71 vulnerabilities (15 low, 22 moderate, 31 high, 3 critical)
+#14 80.92
+#14 80.92 To address issues that do not require attention, run:
+#14 80.92   npm audit fix
+#14 80.92
+#14 80.92 To address all issues (including breaking changes), run:
+#14 80.92   npm audit fix --force
+#14 80.92
+#14 80.92 Run `npm audit` for details.
+#14 80.93 npm notice
+#14 80.93 npm notice New major version of npm available! 10.8.2 -> 11.18.0
+#14 80.93 npm notice Changelog: https://github.com/npm/cli/releases/tag/v11.18.0
+#14 80.93 npm notice To update run: npm install -g npm@11.18.0
+#14 80.93 npm notice
+#14 DONE 81.6s
+
+#19 [frontend 5/5] COPY . .
+#19 DONE 0.9s
+
+#20 [frontend] exporting to image
+#20 exporting layers
+#20 exporting layers 16.7s done
+#20 exporting manifest sha256:2493972f6205a54b18014208fae2c32565601822ed9536aaa7d8f2a012c7e1ca 0.0s done
+#20 exporting config sha256:62d47f0b48ea4393110cc8b91fc412e7a659c296d657042e1d0b8eac491b97ce 0.0s done
+#20 exporting attestation manifest sha256:0d3cddae0cd638c837d2910cbf3447823d4d41021d1b0c5fd1bc114864ac9c6c
+#20 exporting attestation manifest sha256:0d3cddae0cd638c837d2910cbf3447823d4d41021d1b0c5fd1bc114864ac9c6c 0.1s done
+#20 exporting manifest list sha256:c69a20bde67a8a24c6ee4414fabe25771d29eb98d8e368169276516dcace12cd 0.0s done
+#20 naming to docker.io/library/travelmemory-frontend:latest
+#20 naming to docker.io/library/travelmemory-frontend:latest 0.0s done
+#20 unpacking to docker.io/library/travelmemory-frontend:latest
+#20 unpacking to docker.io/library/travelmemory-frontend:latest 17.6s done
+#20 DONE 34.6s
+
+#21 [frontend] resolving provenance for metadata file
+#21 DONE 0.1s
+[+] up 7/7
+ ✔ Image travelmemory-frontend     Built                                                                          137.6s
+ ✔ Image travelmemory-backend      Built                                                                          137.6s
+ ✔ Network travelmemory_default    Created                                                                        0.1s
+ ✔ Volume travelmemory_mongo_data  Created                                                                        0.0s
+ ✔ Container travelmemory_database Created                                                                        0.7s
+ ✔ Container travelmemory_backend  Created                                                                        0.3s
+ ✔ Container travelmemory_frontend Created                                                                        0.3s
+Attaching to travelmemory_backend, travelmemory_database, travelmemory_frontend
+travelmemory_frontend  |
+travelmemory_frontend  | > frontend@0.1.0 start
+travelmemory_frontend  | > react-scripts start
+travelmemory_frontend  |
+travelmemory_backend   | Server started at http://localhost:3001
+travelmemory_backend   | DB ERROR:  MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+travelmemory_backend   |     at _createMongoClient (/app/node_modules/mongoose/lib/connection.js:805:11)
+travelmemory_backend   |     at NativeConnection.openUri (/app/node_modules/mongoose/lib/connection.js:742:29)
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:48.084+00:00"},"s":"I",  "c":"-",        "id":8991200, "ctx":"main","msg":"Shuffling initializers","attr":{"seed":3669472152}}
+
+
+travelmemory_backend   |     at Mongoose.connect (/app/node_modules/mongoose/lib/index.js:406:15)
+travelmemory_backend   |     at Object.<anonymous> (/app/conn.js:4:10)
+travelmemory_backend   |     at Module._compile (node:internal/modules/cjs/loader:1364:14)
+travelmemory_backend   |     at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+travelmemory_backend   |     at Module.load (node:internal/modules/cjs/loader:1203:32)
+travelmemory_backend   |     at Module._load (node:internal/modules/cjs/loader:1019:12)
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:48.180+00:00"},"s":"I",  "c":"CONTROL",  "id":97374,   "ctx":"main","msg":"Automatically disabling TLS 1.0 and TLS 1.1, to force-enable TLS 1.1 specify --sslDisabledProtocols 'TLS1_0'; to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'"}
+
+
+travelmemory_backend   |     at Module.require (node:internal/modules/cjs/loader:1231:19)
+
+
+travelmemory_backend   |     at require (node:internal/modules/helpers:177:18)
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:48.209+00:00"},"s":"I",  "c":"NETWORK",  "id":4915701, "ctx":"main","msg":"Initialized wire specification","attr":{"spec":{"incomingExternalClient":{"minWireVersion":0,"maxWireVersion":27},"incomingInternalClient":{"minWireVersion":0,"maxWireVersion":27},"outgoing":{"minWireVersion":6,"maxWireVersion":27},"isInternalClient":true}}}
+
+
+
+travelmemory_backend   | node:internal/process/promises:288
+
+
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:48.223+00:00"},"s":"I",  "c":"CONTROL",  "id":5945603, "ctx":"main","msg":"Multi threading initialized"}
+
+
+travelmemory_backend   |             triggerUncaughtException(err, true /* fromPromise */);
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:48.224+00:00"},"s":"I",  "c":"CONTROL",  "id":4615611, "ctx":"initandlisten","msg":"MongoDB starting","attr":{"pid":1,"port":27017,"dbPath":"/data/db","architecture":"64-bit","host":"7daeb921dc29"}}
+travelmemory_backend   |             ^
+
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:48.225+00:00"},"s":"I",  "c":"CONTROL",  "id":23403,   "ctx":"initandlisten","msg":"Build Info","attr":{"buildInfo":{"version":"8.2.11","gitVersion":"ee01d36638a00a07a6aa42ee80a125890f11aeed","openSSLVersion":"OpenSSL 3.0.13 30 Jan 2024","modules":[],"allocator":"tcmalloc-google","environment":{"distmod":"ubuntu2404","distarch":"x86_64","target_arch":"x86_64"}}}}
+travelmemory_backend   |
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:48.225+00:00"},"s":"I",  "c":"CONTROL",  "id":51765,   "ctx":"itravelmemory_backend   | MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:48.225+00:00"},"s":"I",  "c":"CONTROL",  "id":21951,   "ctx":"initandlisten","msg":"Options set by command line","attr":{"options":{"net":{"bindIp":"*"}}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:48.226+00:00"},"s":"W",  "c":"NETWORK",  "id":11621101,"ctx":"initandlisten","msg":"Overriding max connections to honor `capMemoryConsumptionForPreAuthBuffers` settings","attr":{"limit":48246}}
+travelmemory_backend   |     at NativeConnection.openUri (/app/node_modules/mongoose/lib/connection.js:742:29)
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:48.246+00:00"},"s":"I",  "c":"NETWORK",  "id":4648601, "ctx":"initandlisten","msg":"Implicit TCP FastOpen unavailable. If TCP FastOpen is required, set at least one of the related parameters","attr":{"relatedParameters":["tcpFastOpenServer","tcpFastOpenClient","tcpFastOpenQueueSize"]}}
+travelmemory_backend   |     at Mongoose.connect (/app/node_modules/mongoose/lib/index.js:406:15)
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:48.258+00:00"},"s":"I",  "c":"STORAGE",  "id":22297,   "ctx":"initandlisten","msg":"Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem","tags":["startupWarnings"]}
+travelmemory_backend   |     at Object.<anonymous> (/app/conn.js:4:10)
+
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:48.260+00:00"},"s":"I",  "c":"STORAGE",  "id":22315,   "ctx":"initandlisten","msg":"Opening WiredTiger","attr":{"config":"create,cache_size=1372M,session_max=33000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,remove=true,path=journal,compressor=snappy),builtin_extension_config=(zstd=(compression_level=6)),file_manager=(close_idle_time=600,close_scan_interval=10,close_handle_minimum=2000),statistics_log=(wait=0),json_output=(error,message),verbose=[recovery_progress:1,checkpoint_progress:1,compact_progress:1,live_restore_progress:1,backup:0,checkpoint:0,compact:0,eviction:0,fileops:0,history_store:0,live_restore:0,recovery:0,rts:0,salvage:0,tiered:0,timestamp:0,transaction:0,verify:0,log:0],prefetch=(available=true,default=false),"}}
+
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:48.283+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906768,"ts_usec":282529,"thread":"1:0x7c4a61998400","session_name":"wiredtiger_open","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"opening the WiredTiger library"}}}
+travelmemory_backend   |     at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+
+
+
+
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:48.441+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906768,"ts_usec":441319,"thread":"1:0x7c4a61998400","session_name":"connection","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"connection configuration string parsing completed"}}}
+
+travelmemory_backend   |     at Module.load (node:internal/modules/cjs/loader:1203:32)
+
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:48.475+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906768,"ts_usec":475007,"thread":"1:0x7c4a61998400","session_name":"connection","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"starting WiredTiger utility threads"}}}
+travelmemory_backend   |     at Module._load (node:internal/modules/cjs/loader:1019:12)
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:48.503+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906768,"ts_usec":503367,"thread":"1:0x7c4a61998400","session_name":"connection","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"starting WiredTiger recovery"}}}
+travelmemory_backend   |     at Module.require (node:internal/modules/cjs/loader:1231:19)
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:48.507+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906768,"ts_usec":507178,"thread":"1:0x7c4a61998400","session_name":"txn-recover","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"scanning metadata to find the largest file ID"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:48.507+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906768,"ts_usec":507422,"thread":"1:0x7c4a61998400","session_name":"txn-recover","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"largest file ID found in the metadata 0"}}}
+travelmemory_backend   |
+
+
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:48.507+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906768,"ts_usec":507539,"thread":"1:0x7c4a61998400","session_name":"txn-recover","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"recovery log replay has successfully finished and ran for 3 milliseconds"}}}
+travelmemory_backend   | Node.js v18.20.8
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:48.507+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906768,"ts_usec":507616,"thread":"1:0x7c4a61998400","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","log_id":1000000,"category_id":33,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"Set global recovery timestamp: (0, 0)"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:48.507+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906768,"ts_usec":507664,"thread":"1:0x7c4a61998400","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","log_id":1000000,"category_id":33,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"Set global oldest timestamp: (0, 0)"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:48.507+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906768,"ts_usec":507758,"thread":"1:0x7c4a61998400","session_name":"txn-recover","category":"WT_VERB_RECOVERY","log_id":1493201,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"recovery was completed successfully and took 3ms, including 3ms for the log replay, 0ms for the rollback to stable, and 0ms for the checkpoint."}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:48.507+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906768,"ts_usec":507814,"thread":"1:0x7c4a61998400","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","log_id":1493201,"category_id":33,"verbose_level":"INFO","verbose_level_id":0,"msg":"recovery was completed successfully and took 3ms, including 3ms for the log replay, 0ms for the rollback to stable, and 0ms for the checkpoint."}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:48.532+00:00"},"s":"I",  "c":"WTEVICT",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906768,"ts_usec":532041,"thread":"1:0x7c4a61998400","session_name":"connection","category":"WT_VERB_EVICTION","log_id":1000000,"category_id":15,"verbose_level":"INFO","verbose_level_id":0,"msg":"starting eviction threads"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:48.565+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906768,"ts_usec":565592,"thread":"1:0x7c4a61998400","session_name":"connection","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"WiredTiger utility threads started successfully"}}}
+travelmemory_backend exited with code 1
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:48.565+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906768,"ts_usec":565735,"thread":"1:0x7c4a61998400","session_name":"connection","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"the WiredTiger library has successfully opened"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:48.565+00:00"},"s":"I",  "c":"STORAGE",  "id":4795906, "ctx":"initandlisten","msg":"WiredTiger opened","attr":{"durationMillis":305}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:48.565+00:00"},"s":"I",  "c":"RECOVERY", "id":23987,   "ctx":"initandlisten","msg":"WiredTiger recoveryTimestamp","attr":{"recoveryTimestamp":{"$timestamp":{"t":0,"i":0}}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:48.565+00:00"},"s":"I",  "c":"STORAGE",  "id":9086700, "ctx":"initandlisten","msg":"WiredTiger session cache max value has been set","attr":{"sessionCacheMax":16500}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:48.631+00:00"},"s":"I",  "c":"STORAGE",  "id":10158000,"ctx":"initandlisten","msg":"Opening spill WiredTiger","attr":{"config":"create,cache_size=100M,session_max=1024,eviction=(threads_min=1,threads_max=1),eviction_dirty_target=5MB,eviction_dirty_trigger=80MB,eviction_updates_trigger=80MB,config_base=false,statistics=(fast),log=(enabled=false),builtin_extension_config=(zstd=(compression_level=-7)),file_manager=(close_idle_time=600,close_scan_interval=10,close_handle_minimum=2000),statistics_log=(wait=0),json_output=(error,message),verbose=[recovery_progress:1,checkpoint_progress:1,compact_progress:1,live_restore_progress:1,backup:0,checkpoint:0,compact:0,eviction:0,fileops:0,history_store:0,live_restore:0,recovery:0,rts:0,salvage:0,tiered:0,timestamp:0,transaction:0,verify:0,log:0],"}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:48.686+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906768,"ts_usec":686336,"thread":"1:0x7c4a61998400","session_name":"wiredtiger_open","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"opening the WiredTiger library"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:48.694+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906768,"ts_usec":694315,"thread":"1:0x7c4a61998400","session_name":"connection","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"connection configuration string parsing completed"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:48.816+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906768,"ts_usec":816357,"thread":"1:0x7c4a61998400","session_name":"connection","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"starting WiredTiger utility threads"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:48.818+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906768,"ts_usec":817987,"thread":"1:0x7c4a61998400","session_name":"connection","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"starting WiredTiger recovery"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:48.818+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906768,"ts_usec":818801,"thread":"1:0x7c4a61998400","session_name":"txn-recover","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"scanning metadata to find the largest file ID"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:48.819+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906768,"ts_usec":819177,"thread":"1:0x7c4a61998400","session_name":"txn-recover","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"largest file ID found in the metadata 0"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:48.819+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906768,"ts_usec":819390,"thread":"1:0x7c4a61998400","session_name":"txn-recover","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"recovery log replay has successfully finished and ran for 1 milliseconds"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:48.820+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906768,"ts_usec":820022,"thread":"1:0x7c4a61998400","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","log_id":1000000,"category_id":33,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"Set global recovery timestamp: (0, 0)"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:48.820+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906768,"ts_usec":820144,"thread":"1:0x7c4a61998400","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","log_id":1000000,"category_id":33,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"Set global oldest timestamp: (0, 0)"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:48.820+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906768,"ts_usec":820274,"thread":"1:0x7c4a61998400","session_name":"txn-recover","category":"WT_VERB_RECOVERY","log_id":1493201,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"recovery was completed successfully and took 1ms, including 1ms for the log replay, 0ms for the rollback to stable, and 0ms for the checkpoint."}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:48.820+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906768,"ts_usec":820371,"thread":"1:0x7c4a61998400","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","log_id":1493201,"category_id":33,"verbose_level":"INFO","verbose_level_id":0,"msg":"recovery was completed successfully and took 1ms, including 1ms for the log replay, 0ms for the rollback to stable, and 0ms for the checkpoint."}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:48.941+00:00"},"s":"I",  "c":"WTEVICT",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906768,"ts_usec":941876,"thread":"1:0x7c4a61998400","session_name":"connection","category":"WT_VERB_EVICTION","log_id":1000000,"category_id":15,"verbose_level":"INFO","verbose_level_id":0,"msg":"starting eviction threads"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:48.943+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906768,"ts_usec":943647,"thread":"1:0x7c4a61998400","session_name":"connection","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"WiredTiger utility threads started successfully"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:48.943+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906768,"ts_usec":943809,"thread":"1:0x7c4a61998400","session_name":"connection","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"the WiredTiger library has successfully opened"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:48.943+00:00"},"s":"I",  "c":"STORAGE",  "id":10158001,"ctx":"initandlisten","msg":"Spill WiredTiger opened","attr":{"durationMillis":312}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:48.959+00:00"},"s":"I",  "c":"STORAGE",  "id":9529901, "ctx":"initandlisten","msg":"Initializing durable catalog","attr":{"numRecords":0}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:48.959+00:00"},"s":"I",  "c":"STORAGE",  "id":9529902, "ctx":"initandlisten","msg":"Retrieving all idents from storage engine"}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:48.959+00:00"},"s":"I",  "c":"STORAGE",  "id":9529903, "ctx":"initandlisten","msg":"Initializing all collections in durable catalog","attr":{"numEntries":0}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:48.978+00:00"},"s":"W",  "c":"CONTROL",  "id":22120,   "ctx":"initandlisten","msg":"Access control is not enabled for the database. Read and write access to data and configuration is unrestricted","tags":["startupWarnings"]}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:48.978+00:00"},"s":"W",  "c":"CONTROL",  "id":9068900, "ctx":"initandlisten","msg":"For customers running the current memory allocator, we suggest changing the contents of the following sysfsFile","attr":{"allocator":"tcmalloc-google","sysfsFile":"/sys/kernel/mm/transparent_hugepage/enabled","currentValue":"never","desiredValue":"always"},"tags":["startupWarnings"]}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:48.978+00:00"},"s":"W",  "c":"CONTROL",  "id":9068900, "ctx":"initandlisten","msg":"For customers running the current memory allocator, we suggest changing the contents of the following sysfsFile","attr":{"allocator":"tcmalloc-google","sysfsFile":"/sys/kernel/mm/transparent_hugepage/defrag","currentValue":"madvise","desiredValue":"defer+madvise"},"tags":["startupWarnings"]}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:48.978+00:00"},"s":"W",  "c":"CONTROL",  "id":8640302, "ctx":"initandlisten","msg":"We suggest setting the contents of sysfsFile to 0.","attr":{"sysfsFile":"/sys/kernel/mm/transparent_hugepage/khugepaged/max_ptes_none","currentValue":511},"tags":["startupWarnings"]}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:48.978+00:00"},"s":"W",  "c":"CONTROL",  "id":8386700, "ctx":"initandlisten","msg":"We suggest setting swappiness to 0 or 1, as swapping can cause performance problems.","attr":{"sysfsFile":"/proc/sys/vm/swappiness","currentValue":60},"tags":["startupWarnings"]}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:48.980+00:00"},"s":"I",  "c":"STORAGE",  "id":20320,   "ctx":"initandlisten","msg":"createCollection","attr":{"namespace":"admin.system.version","uuidDisposition":"provided","uuid":{"uuid":{"$uuid":"4d963770-464d-498c-805b-6fb22fe52c8a"}},"options":{"uuid":{"$uuid":"4d963770-464d-498c-805b-6fb22fe52c8a"}}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:49.008+00:00"},"s":"I",  "c":"INDEX",    "id":20345,   "ctx":"initandlisten","msg":"Index build: done building","attr":{"buildUUID":null,"collectionUUID":{"uuid":{"$uuid":"4d963770-464d-498c-805b-6fb22fe52c8a"}},"namespace":"admin.system.version","index":"_id_","ident":"index-c4a48aaf-f129-4f18-a124-13ef2eb5814c","collectionIdent":"collection-d1bb5fca-8ad6-4c7f-aafe-57eb1de8a8fc","commitTimestamp":null}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:49.009+00:00"},"s":"I",  "c":"REPL",     "id":20459,   "ctx":"initandlisten","msg":"Setting featureCompatibilityVersion","attr":{"newVersion":"8.2"}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:49.009+00:00"},"s":"I",  "c":"REPL",     "id":5853300, "ctx":"initandlisten","msg":"current featureCompatibilityVersion value","attr":{"featureCompatibilityVersion":"8.2","context":"setFCV"}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:49.009+00:00"},"s":"I",  "c":"NETWORK",  "id":4915702, "ctx":"initandlisten","msg":"Updated wire specification","attr":{"oldSpec":{"incomingExternalClient":{"minWireVersion":0,"maxWireVersion":27},"incomingInternalClient":{"minWireVersion":0,"maxWireVersion":27},"outgoing":{"minWireVersion":6,"maxWireVersion":27},"isInternalClient":true},"newSpec":{"incomingExternalClient":{"minWireVersion":0,"maxWireVersion":27},"incomingInternalClient":{"minWireVersion":27,"maxWireVersion":27},"outgoing":{"minWireVersion":27,"maxWireVersion":27},"isInternalClient":true}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:49.010+00:00"},"s":"I",  "c":"NETWORK",  "id":4915702, "ctx":"initandlisten","msg":"Updated wire specification","attr":{"oldSpec":{"incomingExternalClient":{"minWireVersion":0,"maxWireVersion":27},"incomingInternalClient":{"minWireVersion":27,"maxWireVersion":27},"outgoing":{"minWireVersion":27,"maxWireVersion":27},"isInternalClient":true},"newSpec":{"incomingExternalClient":{"minWireVersion":0,"maxWireVersion":27},"incomingInternalClient":{"minWireVersion":27,"maxWireVersion":27},"outgoing":{"minWireVersion":27,"maxWireVersion":27},"isInternalClient":true}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:49.010+00:00"},"s":"I",  "c":"REPL",     "id":5853300, "ctx":"initandlisten","msg":"current featureCompatibilityVersion value","attr":{"featureCompatibilityVersion":"8.2","context":"startup"}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:49.011+00:00"},"s":"I",  "c":"STORAGE",  "id":5071100, "ctx":"initandlisten","msg":"Clearing temp directory"}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:49.011+00:00"},"s":"I",  "c":"STORAGE",  "id":10682200,"ctx":"initandlisten","msg":"Dropping spill idents","attr":{"numIdents":0}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:49.011+00:00"},"s":"I",  "c":"CONTROL",  "id":6608200, "ctx":"initandlisten","msg":"Initializing cluster server parameters from disk"}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:49.012+00:00"},"s":"I",  "c":"CONTROL",  "id":20536,   "ctx":"initandlisten","msg":"Flow Control is enabled on this deployment"}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:49.027+00:00"},"s":"I",  "c":"FTDC",     "id":20625,   "ctx":"initandlisten","msg":"Initializing full-time diagnostic data capture","attr":{"dataDirectory":"/data/db/diagnostic.data"}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:49.043+00:00"},"s":"I",  "c":"STORAGE",  "id":20320,   "ctx":"initandlisten","msg":"createCollection","attr":{"namespace":"local.startup_log","uuidDisposition":"generated","uuid":{"uuid":{"$uuid":"0262077e-0902-46b0-83e7-56cc19934e72"}},"options":{"capped":true,"size":10485760}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:49.066+00:00"},"s":"I",  "c":"INDEX",    "id":20345,   "ctx":"initandlisten","msg":"Index build: done building","attr":{"buildUUID":null,"collectionUUID":{"uuid":{"$uuid":"0262077e-0902-46b0-83e7-56cc19934e72"}},"namespace":"local.startup_log","index":"_id_","ident":"index-3cce98be-4e21-43e3-81aa-cb9f834c8bb0","collectionIdent":"collection-e394f926-a4b7-48d0-b452-13e9bd2bbef8","commitTimestamp":null}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:49.066+00:00"},"s":"I",  "c":"REPL",     "id":6015317, "ctx":"initandlisten","msg":"Setting new configuration state","attr":{"newState":"ConfigReplicationDisabled","oldState":"ConfigPreStart"}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:49.069+00:00"},"s":"I",  "c":"STORAGE",  "id":22262,   "ctx":"initandlisten","msg":"Timestamp monitor starting"}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:49.070+00:00"},"s":"I",  "c":"STORAGE",  "id":7333401, "ctx":"initandlisten","msg":"Starting the DiskSpaceMonitor"}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:49.081+00:00"},"s":"I",  "c":"NETWORK",  "id":23015,   "ctx":"listener","msg":"Listening on","attr":{"address":"/tmp/mongodb-27017.sock"}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:49.081+00:00"},"s":"I",  "c":"NETWORK",  "id":23015,   "ctx":"listener","msg":"Listening on","attr":{"address":"0.0.0.0:27017"}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:49.081+00:00"},"s":"I",  "c":"NETWORK",  "id":23016,   "ctx":"listener","msg":"Waiting for connections","attr":{"port":27017,"ssl":"off"}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:49.081+00:00"},"s":"I",  "c":"CONTROL",  "id":8423403, "ctx":"initandlisten","msg":"mongod startup complete","attr":{"Summary of time elapsed":{"Startup from clean shutdown?":true,"Statistics":{"setUpPeriodicRunnerMillis":0,"setUpOCSPMillis":0,"setUpTransportLayerMillis":28,"initSyncCrashRecoveryMillis":0,"createLockFileMillis":0,"getStorageEngineMetadataMillis":0,"createStorageEngineMillis":702,"writePIDMillis":0,"writeNewMetadataMillis":12,"initializeFCVForIndexMillis":1,"dropAbandonedIdentsMillis":0,"standaloneClusterParamsMillis":0,"userAndRolesGraphMillis":0,"waitForMajorityServiceMillis":1,"startUpReplCoordMillis":0,"recoverChangeStreamMillis":0,"logStartupOptionsMillis":0,"startUpTransportLayerMillis":1,"initAndListenTotalMillis":857}}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:49.095+00:00"},"s":"I",  "c":"CONTROL",  "id":20712,   "ctx":"LogicalSessionCacheReap","msg":"Sessions collection is not set up; waiting until next sessions reap interval","attr":{"error":"NamespaceNotFound: config.system.sessions does not exist"}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:49.095+00:00"},"s":"I",  "c":"STORAGE",  "id":20320,   "ctx":"LogicalSessionCacheRefresh","msg":"createCollection","attr":{"namespace":"config.system.sessions","uuidDisposition":"generated","uuid":{"uuid":{"$uuid":"f87cd2a9-d52e-487f-a983-61c7861c205f"}},"options":{}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:49.131+00:00"},"s":"I",  "c":"INDEX",    "id":20345,   "ctx":"LogicalSessionCacheRefresh","msg":"Index build: done building","attr":{"buildUUID":null,"collectionUUID":{"uuid":{"$uuid":"f87cd2a9-d52e-487f-a983-61c7861c205f"}},"namespace":"config.system.sessions","index":"_id_","ident":"index-74a1607e-ea67-4435-98e2-7cfdd4c1dcf8","collectionIdent":"collection-22c53b2e-08f4-46e5-82a1-bde2ec0326c8","commitTimestamp":null}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:52:49.132+00:00"},"s":"I",  "c":"INDEX",    "id":20345,   "ctx":"LogicalSessionCacheRefresh","msg":"Index build: done building","attr":{"buildUUID":null,"collectionUUID":{"uuid":{"$uuid":"f87cd2a9-d52e-487f-a983-61c7861c205f"}},"namespace":"config.system.sessions","index":"lsidTTLIndex","ident":"index-898213bb-3e77-400d-aaac-10edf1a9fe5e","collectionIdent":"collection-22c53b2e-08f4-46e5-82a1-bde2ec0326c8","commitTimestamp":null}}
+travelmemory_frontend  | Browserslist: caniuse-lite is outdated. Please run:
+travelmemory_frontend  |   npx update-browserslist-db@latest
+travelmemory_frontend  |   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+travelmemory_frontend  | (node:25) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+travelmemory_frontend  | (Use `node --trace-deprecation ...` to show where the warning was created)
+travelmemory_frontend  | (node:25) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+travelmemory_frontend  | Starting the development server...
+travelmemory_frontend  |
+travelmemory_frontend  | One of your dependencies, babel-preset-react-app, is importing the
+travelmemory_frontend  | "@babel/plugin-proposal-private-property-in-object" package without
+travelmemory_frontend  | declaring it in its dependencies. This is currently working because
+travelmemory_frontend  | "@babel/plugin-proposal-private-property-in-object" is already in your
+travelmemory_frontend  | node_modules folder for unrelated reasons, but it may break at any time.
+travelmemory_frontend  |
+travelmemory_frontend  | babel-preset-react-app is part of the create-react-app project, which
+travelmemory_frontend  | is not maintianed anymore. It is thus unlikely that this bug will
+travelmemory_frontend  | ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
+travelmemory_frontend  | your devDependencies to work around this error. This will make this message
+travelmemory_frontend  | go away.
+travelmemory_frontend  |
+travelmemory_frontend  | Compiled with warnings.
+travelmemory_frontend  |
+travelmemory_frontend  | [eslint]
+travelmemory_frontend  | src/App.js
+travelmemory_frontend  |   Line 1:8:  'logo' is defined but never used  no-unused-vars
+travelmemory_frontend  |
+travelmemory_frontend  | src/components/pages/AddExperience.js
+travelmemory_frontend  |   Line 27:15:  Expected '===' and instead saw '=='  eqeqeq
+travelmemory_frontend  |
+travelmemory_frontend  | Search for the keywords to learn more about each warning.
+travelmemory_frontend  | To ignore, add // eslint-disable-next-line to the line before.
+travelmemory_frontend  |
+travelmemory_frontend  | WARNING in [eslint]
+travelmemory_frontend  | src/App.js
+travelmemory_frontend  |   Line 1:8:  'logo' is defined but never used  no-unused-vars
+travelmemory_frontend  |
+travelmemory_frontend  | src/components/pages/AddExperience.js
+travelmemory_frontend  |   Line 27:15:  Expected '===' and instead saw '=='  eqeqeq
+travelmemory_frontend  |
+travelmemory_frontend  | webpack compiled with 1 warning
+travelmemory_frontend  | Compiling...
+travelmemory_frontend  | Compiled with warnings.
+travelmemory_frontend  |
+travelmemory_frontend  | [eslint]
+travelmemory_frontend  | src/App.js
+travelmemory_frontend  |   Line 1:8:  'logo' is defined but never used  no-unused-vars
+travelmemory_frontend  |
+travelmemory_frontend  | src/components/pages/AddExperience.js
+travelmemory_frontend  |   Line 27:15:  Expected '===' and instead saw '=='  eqeqeq
+travelmemory_frontend  |
+travelmemory_frontend  | Search for the keywords to learn more about each warning.
+travelmemory_frontend  | To ignore, add // eslint-disable-next-line to the line before.
+travelmemory_frontend  |
+travelmemory_frontend  | WARNING in [eslint]
+travelmemory_frontend  | src/App.js
+travelmemory_frontend  |   Line 1:8:  'logo' is defined but never used  no-unused-vars
+travelmemory_frontend  |
+travelmemory_frontend  | src/components/pages/AddExperience.js
+travelmemory_frontend  |   Line 27:15:  Expected '===' and instead saw '=='  eqeqeq
+travelmemory_frontend  |
+travelmemory_frontend  | webpack compiled with 1 warning
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:53:49.011+00:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906829,"ts_usec":10919,"thread":"1:0x7c4a511556c0","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","log_id":1000000,"category_id":7,"verbose_level":"INFO","verbose_level_id":0,"msg":"saving checkpoint snapshot min: 33, snapshot max: 33 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 1"}}}
+Gracefully Stopping... press Ctrl+C again to force
+Container travelmemory_frontend Stopping
+Container travelmemory_frontend Stopped
+Container travelmemory_backend Stopping
+Container travelmemory_backend Stopped g   w Enable Watch   d Detach
+Container travelmemory_database Stopping
+Container travelmemory_database Stopped
+
+C:\Users\Hirensinh\Documents\GitHub\TravelMemory>docker-compose up
+Attaching to travelmemory_backend, travelmemory_database, travelmemory_frontend
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:06.532+00:00"},"s":"I",  "c":"-",        "id":8991200, "ctx":"main","msg":"Shuffling initializers","attr":{"seed":3534149248}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:06.561+00:00"},"s":"I",  "c":"CONTROL",  "id":97374,   "ctx":"main","msg":"Automatically disabling TLS 1.0 and TLS 1.1, to force-enable TLS 1.1 specify --sslDisabledProtocols 'TLS1_0'; to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'"}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:06.585+00:00"},"s":"I",  "c":"NETWORK",  "id":4915701, "ctx":"main","msg":"Initialized wire specification","attr":{"spec":{"incomingExternalClient":{"minWireVersion":0,"maxWireVersion":27},"incomingInternalClient":{"minWireVersion":0,"maxWireVersion":27},"outgoing":{"minWireVersion":6,"maxWireVersion":27},"isInternalClient":true}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:06.585+00:00"},"s":"I",  "c":"CONTROL",  "id":5945603, "ctx":"main","msg":"Multi threading initialized"}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:06.586+00:00"},"s":"I",  "c":"CONTROL",  "id":4615611, "ctx":"initandlisten","msg":"MongoDB starting","attr":{"pid":1,"port":27017,"dbPath":"/data/db","architecture":"64-bit","host":"7daeb921dc29"}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:06.586+00:00"},"s":"I",  "c":"CONTROL",  "id":23403,   "ctx":"initandlisten","msg":"Build Info","attr":{"buildInfo":{"version":"8.2.11","gitVersion":"ee01d36638a00a07a6aa42ee80a125890f11aeed","openSSLVersion":"OpenSSL 3.0.13 30 Jan 2024","modules":[],"allocator":"tcmalloc-google","environment":{"distmod":"ubuntu2404","distarch":"x86_64","target_arch":"x86_64"}}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:06.586+00:00"},"s":"I",  "c":"CONTROL",  "id":51765,   "ctx":"initandlisten","msg":"Operating System","attr":{"os":{"name":"Ubuntu","version":"24.04"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:06.586+00:00"},"s":"I",  "c":"CONTROL",  "id":21951,   "ctx":"initandlisten","msg":"Options set by command line","attr":{"options":{"net":{"bindIp":"*"}}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:06.596+00:00"},"s":"W",  "c":"NETWORK",  "id":11621101,"ctx":"initandlisten","msg":"Overriding max connections to honor `capMemoryConsumptionForPreAuthBuffers` settings","attr":{"limit":48246}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:06.597+00:00"},"s":"I",  "c":"NETWORK",  "id":4648601, "ctx":"initandlisten","msg":"Implicit TCP FastOpen unavailable. If TCP FastOpen is required, set at least one of the related parameters","attr":{"relatedParameters":["tcpFastOpenServer","tcpFastOpenClient","tcpFastOpenQueueSize"]}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:06.600+00:00"},"s":"I",  "c":"STORAGE",  "id":22270,   "ctx":"initandlisten","msg":"Storage engine to use detected by data files","attr":{"dbpath":"/data/db","storageEngine":"wiredTiger"}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:06.600+00:00"},"s":"I",  "c":"STORAGE",  "id":22297,   "ctx":"initandlisten","msg":"Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem","tags":["startupWarnings"]}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:06.600+00:00"},"s":"I",  "c":"STORAGE",  "id":22315,   "ctx":"initandlisten","msg":"Opening WiredTiger","attr":{"config":"create,cache_size=1372M,session_max=33000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,remove=true,path=journal,compressor=snappy),builtin_extension_config=(zstd=(compression_level=6)),file_manager=(close_idle_time=600,close_scan_interval=10,close_handle_minimum=2000),statistics_log=(wait=0),json_output=(error,message),verbose=[recovery_progress:1,checkpoint_progress:1,compact_progress:1,live_restore_progress:1,backup:0,checkpoint:0,compact:0,eviction:0,fileops:0,history_store:0,live_restore:0,recovery:0,rts:0,salvage:0,tiered:0,timestamp:0,transaction:0,verify:0,log:0],prefetch=(available=true,default=false),"}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:06.613+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906846,"ts_usec":613082,"thread":"1:0x74804af54400","session_name":"wiredtiger_open","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"opening the WiredTiger library"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:06.751+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906846,"ts_usec":751230,"thread":"1:0x74804af54400","session_name":"connection","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"connection configuration string parsing completed"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:06.752+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906846,"ts_usec":752888,"thread":"1:0x74804af54400","session_name":"connection","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"starting WiredTiger utility threads"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:06.775+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906846,"ts_usec":774941,"thread":"1:0x74804af54400","session_name":"connection","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"starting WiredTiger recovery"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:06.776+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906846,"ts_usec":776571,"thread":"1:0x74804af54400","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","log_id":1000000,"category_id":33,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"Recovering log 1 through 2"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:07.134+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906847,"ts_usec":133940,"thread":"1:0x74804af54400","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","log_id":1000000,"category_id":33,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"Recovering log 2 through 2"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:07.412+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906847,"ts_usec":412563,"thread":"1:0x74804af54400","session_name":"txn-recover","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"scanning metadata to find the largest file ID"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:07.413+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906847,"ts_usec":413846,"thread":"1:0x74804af54400","session_name":"txn-recover","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"largest file ID found in the metadata 10"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:07.416+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906847,"ts_usec":416390,"thread":"1:0x74804af54400","session_name":"txn-recover","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"Main recovery loop: starting at 1,26240 to 2,256"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:07.759+00:00"},"s":"I",  "c":"WTEVICT",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906847,"ts_usec":759502,"thread":"1:0x74804af54400","session_name":"txn-recover","category":"WT_VERB_EVICTION","log_id":1000000,"category_id":15,"verbose_level":"INFO","verbose_level_id":0,"msg":"starting eviction threads"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:07.765+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906847,"ts_usec":765652,"thread":"1:0x74804af54400","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","log_id":1000000,"category_id":33,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"Recovering log 1 through 2"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:07.992+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906847,"ts_usec":992068,"thread":"1:0x74804af54400","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","log_id":1000000,"category_id":33,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"Recovering log 2 through 2"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:08.136+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906848,"ts_usec":134074,"thread":"1:0x74804af54400","session_name":"txn-recover","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"recovery log replay has successfully finished and ran for 1358 milliseconds"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:08.142+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906848,"ts_usec":142326,"thread":"1:0x74804af54400","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","log_id":1000000,"category_id":33,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"Set global recovery timestamp: (0, 0)"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:08.145+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906848,"ts_usec":145637,"thread":"1:0x74804af54400","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","log_id":1000000,"category_id":33,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"Set global oldest timestamp: (0, 0)"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:08.145+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906848,"ts_usec":145851,"thread":"1:0x74804af54400","session_name":"txn-recover","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"[RECOVERY_RTS] performing recovery rollback_to_stable with stable_timestamp=(0, 0) and oldest_timestamp=(0, 0)"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:08.148+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906848,"ts_usec":148302,"thread":"1:0x74804af54400","session_name":"txn-recover","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"recovery rollback to stable has successfully finished and ran for 2 milliseconds"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:08.149+00:00"},"s":"I",  "c":"WTEVICT",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906848,"ts_usec":149407,"thread":"1:0x74804af54400","session_name":"txn-recover","category":"WT_VERB_EVICTION","log_id":1000000,"category_id":15,"verbose_level":"INFO","verbose_level_id":0,"msg":"stopping eviction threads"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:08.150+00:00"},"s":"I",  "c":"WTEVICT",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906848,"ts_usec":149981,"thread":"1:0x74804af54400","session_name":"txn-recover","category":"WT_VERB_EVICTION","log_id":1000000,"category_id":15,"verbose_level":"INFO","verbose_level_id":0,"msg":"waiting for eviction threads to stop"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:08.150+00:00"},"s":"I",  "c":"WTEVICT",  "id":22430,   "ctx":"thread8","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906848,"ts_usec":150416,"thread":"1:0x748046f2a6c0","session_name":"eviction-server","category":"WT_VERB_EVICTION","log_id":1000000,"category_id":15,"verbose_level":"INFO","verbose_level_id":0,"msg":"eviction thread exiting"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:08.168+00:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906848,"ts_usec":168076,"thread":"1:0x74804af54400","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT","log_id":1000000,"category_id":5,"verbose_level":"INFO","verbose_level_id":0,"msg":"Checkpoint requested at stable timestamp (0, 0)"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:08.169+00:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906848,"ts_usec":169581,"thread":"1:0x74804af54400","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","log_id":1000000,"category_id":7,"verbose_level":"INFO","verbose_level_id":0,"msg":"saving checkpoint snapshot min: 1, snapshot max: 1 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 10"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:08.270+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906848,"ts_usec":269482,"thread":"1:0x74804af54400","session_name":"txn-recover","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"recovery checkpoint has successfully finished and ran for 118 milliseconds"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:08.276+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906848,"ts_usec":276695,"thread":"1:0x74804af54400","session_name":"txn-recover","category":"WT_VERB_RECOVERY","log_id":1493201,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"recovery was completed successfully and took 1501ms, including 1358ms for the log replay, 2ms for the rollback to stable, and 118ms for the checkpoint."}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:08.276+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906848,"ts_usec":276813,"thread":"1:0x74804af54400","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","log_id":1493201,"category_id":33,"verbose_level":"INFO","verbose_level_id":0,"msg":"recovery was completed successfully and took 1501ms, including 1358ms for the log replay, 2ms for the rollback to stable, and 118ms for the checkpoint."}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:08.281+00:00"},"s":"I",  "c":"WTEVICT",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906848,"ts_usec":281545,"thread":"1:0x74804af54400","session_name":"connection","category":"WT_VERB_EVICTION","log_id":1000000,"category_id":15,"verbose_level":"INFO","verbose_level_id":0,"msg":"starting eviction threads"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:08.310+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906848,"ts_usec":310266,"thread":"1:0x74804af54400","session_name":"connection","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"WiredTiger utility threads started successfully"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:08.312+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906848,"ts_usec":312034,"thread":"1:0x74804af54400","session_name":"connection","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"the WiredTiger library has successfully opened"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:08.313+00:00"},"s":"I",  "c":"STORAGE",  "id":4795906, "ctx":"initandlisten","msg":"WiredTiger opened","attr":{"durationMillis":1713}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:08.314+00:00"},"s":"I",  "c":"RECOVERY", "id":23987,   "ctx":"initandlisten","msg":"WiredTiger recoveryTimestamp","attr":{"recoveryTimestamp":{"$timestamp":{"t":0,"i":0}}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:08.314+00:00"},"s":"I",  "c":"STORAGE",  "id":9086700, "ctx":"initandlisten","msg":"WiredTiger session cache max value has been set","attr":{"sessionCacheMax":16500}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:08.328+00:00"},"s":"I",  "c":"STORAGE",  "id":10158000,"ctx":"initandlisten","msg":"Opening spill WiredTiger","attr":{"config":"create,cache_size=100M,session_max=1024,eviction=(threads_min=1,threads_max=1),eviction_dirty_target=5MB,eviction_dirty_trigger=80MB,eviction_updates_trigger=80MB,config_base=false,statistics=(fast),log=(enabled=false),builtin_extension_config=(zstd=(compression_level=-7)),file_manager=(close_idle_time=600,close_scan_interval=10,close_handle_minimum=2000),statistics_log=(wait=0),json_output=(error,message),verbose=[recovery_progress:1,checkpoint_progress:1,compact_progress:1,live_restore_progress:1,backup:0,checkpoint:0,compact:0,eviction:0,fileops:0,history_store:0,live_restore:0,recovery:0,rts:0,salvage:0,tiered:0,timestamp:0,transaction:0,verify:0,log:0],"}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:08.339+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906848,"ts_usec":339165,"thread":"1:0x74804af54400","session_name":"wiredtiger_open","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"opening the WiredTiger library"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:08.363+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906848,"ts_usec":363110,"thread":"1:0x74804af54400","session_name":"connection","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"connection configuration string parsing completed"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:08.444+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906848,"ts_usec":444338,"thread":"1:0x74804af54400","session_name":"connection","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"starting WiredTiger utility threads"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:08.447+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906848,"ts_usec":447410,"thread":"1:0x74804af54400","session_name":"connection","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"starting WiredTiger recovery"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:08.448+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906848,"ts_usec":448698,"thread":"1:0x74804af54400","session_name":"txn-recover","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"scanning metadata to find the largest file ID"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:08.449+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906848,"ts_usec":449866,"thread":"1:0x74804af54400","session_name":"txn-recover","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"largest file ID found in the metadata 0"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:08.450+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906848,"ts_usec":450214,"thread":"1:0x74804af54400","session_name":"txn-recover","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"recovery log replay has successfully finished and ran for 1 milliseconds"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:08.450+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906848,"ts_usec":450321,"thread":"1:0x74804af54400","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","log_id":1000000,"category_id":33,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"Set global recovery timestamp: (0, 0)"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:08.450+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906848,"ts_usec":450391,"thread":"1:0x74804af54400","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","log_id":1000000,"category_id":33,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"Set global oldest timestamp: (0, 0)"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:08.450+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906848,"ts_usec":450463,"thread":"1:0x74804af54400","session_name":"txn-recover","category":"WT_VERB_RECOVERY","log_id":1493201,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"recovery was completed successfully and took 1ms, including 1ms for the log replay, 0ms for the rollback to stable, and 0ms for the checkpoint."}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:08.450+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906848,"ts_usec":450507,"thread":"1:0x74804af54400","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","log_id":1493201,"category_id":33,"verbose_level":"INFO","verbose_level_id":0,"msg":"recovery was completed successfully and took 1ms, including 1ms for the log replay, 0ms for the rollback to stable, and 0ms for the checkpoint."}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:08.580+00:00"},"s":"I",  "c":"WTEVICT",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906848,"ts_usec":580184,"thread":"1:0x74804af54400","session_name":"connection","category":"WT_VERB_EVICTION","log_id":1000000,"category_id":15,"verbose_level":"INFO","verbose_level_id":0,"msg":"starting eviction threads"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:08.595+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906848,"ts_usec":595245,"thread":"1:0x74804af54400","session_name":"connection","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"WiredTiger utility threads started successfully"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:08.596+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906848,"ts_usec":596335,"thread":"1:0x74804af54400","session_name":"connection","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"the WiredTiger library has successfully opened"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:08.597+00:00"},"s":"I",  "c":"STORAGE",  "id":10158001,"ctx":"initandlisten","msg":"Spill WiredTiger opened","attr":{"durationMillis":269}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:08.602+00:00"},"s":"I",  "c":"STORAGE",  "id":9529901, "ctx":"initandlisten","msg":"Initializing durable catalog","attr":{"numRecords":3}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:08.603+00:00"},"s":"I",  "c":"STORAGE",  "id":9529902, "ctx":"initandlisten","msg":"Retrieving all idents from storage engine"}
+travelmemory_frontend  |
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:08.616+00:00"},"s":"I",  "c":"STORAGE",  "id":9529903, "ctx":"initandlisten","msg":"Initializing all collections in durable catalog","attr":{"numEntries":3}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:08.636+00:00"},"s":"W",  "c":"CONTROL",  "id":22120,   "ctx":"initandlisten","msg":"Access control is not enabled for the database. Read and write access to data and configuration is unrestricted","tags":["startupWarnings"]}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:08.640+00:00"},"s":"W",  "c":"CONTROL",  "id":9068900, "ctx":"initandlisten","msg":"For customers running the current memory allocator, we suggest changing the contents of the following sysfsFile","attr":{"allocator":"tcmalloc-google","sysfsFile":"/sys/kernel/mm/transparent_hugepage/enabled","currentValue":"never","desiredValue":"always"},"tags":["startupWarnings"]}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:08.644+00:00"},"s":"W",  "c":"CONTROL",  "id":9068900, "ctx":"initandlisten","msg":"For customers running the current memory allocator, we suggest changing the contents of the following sysfsFile","attr":{"allocator":"tcmalloc-google","sysfsFile":"/sys/kernel/mm/transparent_hugepage/defrag","currentValue":"madvise","desiredValue":"defer+madvise"},"tags":["startupWarnings"]}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:08.645+00:00"},"s":"W",  "c":"CONTROL",  "id":8640302, "ctx":"initandlisten","msg":"We suggest setting the contents of sysfsFile to 0.","attr":{"sysfsFile":"/sys/kernel/mm/transparent_hugepage/khugepaged/max_ptes_none","currentValue":511},"tags":["startupWarnings"]}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:08.646+00:00"},"s":"W",  "c":"CONTROL",  "id":8386700, "ctx":"initandlisten","msg":"We suggest setting swappiness to 0 or 1, as swapping can cause performance problems.","attr":{"sysfsFile":"/proc/sys/vm/swappiness","currentValue":60},"tags":["startupWarnings"]}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:08.654+00:00"},"s":"I",  "c":"NETWORK",  "id":4915702, "ctx":"initandlisten","msg":"Updated wire specification","attr":{"oldSpec":{"incomingExternalClient":{"minWireVersion":0,"maxWireVersion":27},"incomingInternalClient":{"minWireVersion":0,"maxWireVersion":27},"outgoing":{"minWireVersion":6,"maxWireVersion":27},"isInternalClient":true},"newSpec":{"incomingExternalClient":{"minWireVersion":0,"maxWireVersion":27},"incomingInternalClient":{"minWireVersion":27,"maxWireVersion":27},"outgoing":{"minWireVersion":27,"maxWireVersion":27},"isInternalClient":true}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:08.655+00:00"},"s":"I",  "c":"REPL",     "id":5853300, "ctx":"initandlisten","msg":"current featureCompatibilityVersion value","attr":{"featureCompatibilityVersion":"8.2","context":"startup"}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:08.668+00:00"},"s":"I",  "c":"STORAGE",  "id":5071100, "ctx":"initandlisten","msg":"Clearing temp directory"}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:08.669+00:00"},"s":"I",  "c":"STORAGE",  "id":10682200,"ctx":"initandlisten","msg":"Dropping spill idents","attr":{"numIdents":0}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:08.671+00:00"},"s":"I",  "c":"CONTROL",  "id":6608200, "ctx":"initandlisten","msg":"Initializing cluster server parameters from disk"}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:08.673+00:00"},"s":"I",  "c":"CONTROL",  "id":20536,   "ctx":"initandlisten","msg":"Flow Control is enabled on this deployment"}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:08.692+00:00"},"s":"I",  "c":"FTDC",     "id":20625,   "ctx":"initandlisten","msg":"Initializing full-time diagnostic data capture","attr":{"dataDirectory":"/data/db/diagnostic.data"}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:08.700+00:00"},"s":"I",  "c":"REPL",     "id":6015317, "ctx":"initandlisten","msg":"Setting new configuration state","attr":{"newState":"ConfigReplicationDisabled","oldState":"ConfigPreStart"}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:08.701+00:00"},"s":"I",  "c":"STORAGE",  "id":22262,   "ctx":"initandlisten","msg":"Timestamp monitor starting"}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:08.704+00:00"},"s":"I",  "c":"STORAGE",  "id":7333401, "ctx":"initandlisten","msg":"Starting the DiskSpaceMonitor"}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:08.725+00:00"},"s":"I",  "c":"NETWORK",  "id":23015,   "ctx":"listener","msg":"Listening on","attr":{"address":"/tmp/mongodb-27017.sock"}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:08.728+00:00"},"s":"I",  "c":"NETWORK",  "id":23015,   "ctx":"listener","msg":"Listening on","attr":{"address":"0.0.0.0:27017"}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:08.753+00:00"},"s":"I",  "c":"NETWORK",  "id":23016,   "ctx":"listener","msg":"Waiting for connections","attr":{"port":27017,"ssl":"off"}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:54:08.758+00:00"},"s":"I",  "c":"CONTROL",  "id":8423403, "ctx":"initandlisten","msg":"mongod startup complete","attr":{"Summary of time elapsed":{"Startup from clean shutdown?":true,"Statistics":{"setUpPeriodicRunnerMillis":0,"setUpOCSPMillis":0,"setUpTransportLayerMillis":1,"initSyncCrashRecoveryMillis":0,"createLockFileMillis":0,"getStorageEngineMetadataMillis":0,"validateMetadataMillis":0,"createStorageEngineMillis":2016,"writePIDMillis":13,"initializeFCVForIndexMillis":8,"dropAbandonedIdentsMillis":12,"standaloneClusterParamsMillis":1,"userAndRolesGraphMillis":0,"waitForMajorityServiceMillis":0,"startUpReplCoordMillis":3,"recoverChangeStreamMillis":0,"logStartupOptionsMillis":0,"startUpTransportLayerMillis":33,"initAndListenTotalMillis":2171}}}}
+travelmemory_backend   | Server started at http://localhost:3001
+travelmemory_backend   | DB ERROR:  MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+travelmemory_backend   |     at _createMongoClient (/app/node_modules/mongoose/lib/connection.js:805:11)
+travelmemory_backend   |     at NativeConnection.openUri (/app/node_modules/mongoose/lib/connection.js:742:29)
+travelmemory_backend   |     at Mongoose.connect (/app/node_modules/mongoose/lib/index.js:406:15)
+travelmemory_backend   |     at Object.<anonymous> (/app/conn.js:4:10)
+travelmemory_backend   |     at Module._compile (node:internal/modules/cjs/loader:1364:14)
+travelmemory_backend   |     at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+travelmemory_backend   |     at Module.load (node:internal/modules/cjs/loader:1203:32)
+travelmemory_backend   |     at Module._load (node:internal/modules/cjs/loader:1019:12)
+travelmemory_backend   |     at Module.require (node:internal/modules/cjs/loader:1231:19)
+travelmemory_backend   |     at require (node:internal/modules/helpers:177:18)
+travelmemory_backend   | node:internal/process/promises:288
+travelmemory_backend   |             triggerUncaughtException(err, true /* fromPromise */);
+travelmemory_backend   |             ^
+travelmemory_backend   |
+travelmemory_backend   | MongooseError: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+travelmemory_backend   |     at _createMongoClient (/app/node_modules/mongoose/lib/connection.js:805:11)
+travelmemory_backend   |     at NativeConnection.openUri (/app/node_modules/mongoose/lib/connection.js:742:29)
+travelmemory_backend   |     at Mongoose.connect (/app/node_modules/mongoose/lib/index.js:406:15)
+travelmemory_backend   |     at Object.<anonymous> (/app/conn.js:4:10)
+travelmemory_backend   |     at Module._compile (node:internal/modules/cjs/loader:1364:14)
+travelmemory_backend   |     at Module._extensions..js (node:internal/modules/cjs/loader:1422:10)
+travelmemory_backend   |     at Module.load (node:internal/modules/cjs/loader:1203:32)
+travelmemory_backend   |     at Module._load (node:internal/modules/cjs/loader:1019:12)
+travelmemory_backend   |     at Module.require (node:internal/modules/cjs/loader:1231:19)
+travelmemory_backend   |     at require (node:internal/modules/helpers:177:18)
+travelmemory_backend   |
+travelmemory_backend   | Node.js v18.20.8
+travelmemory_backend exited with code 1
+travelmemory_frontend  | Browserslist: caniuse-lite is outdated. Please run:
+travelmemory_frontend  |   npx update-browserslist-db@latest
+travelmemory_frontend  |   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+travelmemory_frontend  | (node:25) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+travelmemory_frontend  | (Use `node --trace-deprecation ...` to show where the warning was created)
+travelmemory_frontend  | (node:25) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+travelmemory_frontend  | Starting the development server...
+travelmemory_frontend  |
+travelmemory_frontend  | Compiled successfully!
+travelmemory_frontend  |
+travelmemory_frontend  | You can now view frontend in the browser.
+travelmemory_frontend  |
+travelmemory_frontend  |   Local:            http://localhost:3000
+travelmemory_frontend  |   On Your Network:  http://172.18.0.4:3000
+travelmemory_frontend  |
+travelmemory_frontend  | Note that the development build is not optimized.
+travelmemory_frontend  | To create a production build, use npm run build.
+travelmemory_frontend  |
+travelmemory_frontend  | webpack compiled successfully
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:55:08.624+00:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906908,"ts_usec":624688,"thread":"1:0x74803a7116c0","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","log_id":1000000,"category_id":7,"verbose_level":"INFO","verbose_level_id":0,"msg":"saving checkpoint snapshot min: 3, snapshot max: 3 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 10"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:56:08.651+00:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782906968,"ts_usec":651565,"thread":"1:0x74803a7116c0","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","log_id":1000000,"category_id":7,"verbose_level":"INFO","verbose_level_id":0,"msg":"saving checkpoint snapshot min: 5, snapshot max: 5 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 10"}}}
+Gracefully Stopping... press Ctrl+C again to force
+Container travelmemory_frontend Stopping
+Container travelmemory_frontend Stopped
+Container travelmemory_backend Stopping
+Container travelmemory_backend Stopped g   w Enable Watch   d Detach
+Container travelmemory_database Stopping
+Container travelmemory_database Stopped
+
+
+
+C:\Users\Hirensinh\Documents\GitHub\TravelMemory>docker-compose up
+[+] up 1/1
+ ✔ Container travelmemory_backend Recreated                                                                         0.4s
+Attaching to travelmemory_backend, travelmemory_database, travelmemory_frontend
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:31.150+00:00"},"s":"I",  "c":"-",        "id":8991200, "ctx":"main","msg":"Shuffling initializers","attr":{"seed":1315222876}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:31.183+00:00"},"s":"I",  "c":"CONTROL",  "id":97374,   "ctx":"main","msg":"Automatically disabling TLS 1.0 and TLS 1.1, to force-enable TLS 1.1 specify --sslDisabledProtocols 'TLS1_0'; to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'"}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:31.204+00:00"},"s":"I",  "c":"NETWORK",  "id":4915701, "ctx":"main","msg":"Initialized wire specification","attr":{"spec":{"incomingExternalClient":{"minWireVersion":0,"maxWireVersion":27},"incomingInternalClient":{"minWireVersion":0,"maxWireVersion":27},"outgoing":{"minWireVersion":6,"maxWireVersion":27},"isInternalClient":true}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:31.205+00:00"},"s":"I",  "c":"CONTROL",  "id":5945603, "ctx":"main","msg":"Multi threading initialized"}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:31.206+00:00"},"s":"I",  "c":"CONTROL",  "id":4615611, "ctx":"initandlisten","msg":"MongoDB starting","attr":{"pid":1,"port":27017,"dbPath":"/data/db","architecture":"64-bit","host":"7daeb921dc29"}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:31.206+00:00"},"s":"I",  "c":"CONTROL",  "id":23403,   "ctx":"initandlisten","msg":"Build Info","attr":{"buildInfo":{"version":"8.2.11","gitVersion":"ee01d36638a00a07a6aa42ee80a125890f11aeed","openSSLVersion":"OpenSSL 3.0.13 30 Jan 2024","modules":[],"allocator":"tcmalloc-google","environment":{"distmod":"ubuntu2404","distarch":"x86_64","target_arch":"x86_64"}}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:31.206+00:00"},"s":"I",  "c":"CONTROL",  "id":51765,   "ctx":"initandlisten","msg":"Operating System","attr":{"os":{"name":"Ubuntu","version":"24.04"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:31.206+00:00"},"s":"I",  "c":"CONTROL",  "id":21951,   "ctx":"initandlisten","msg":"Options set by command line","attr":{"options":{"net":{"bindIp":"*"}}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:31.207+00:00"},"s":"W",  "c":"NETWORK",  "id":11621101,"ctx":"initandlisten","msg":"Overriding max connections to honor `capMemoryConsumptionForPreAuthBuffers` settings","attr":{"limit":48246}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:31.209+00:00"},"s":"I",  "c":"NETWORK",  "id":4648601, "ctx":"initandlisten","msg":"Implicit TCP FastOpen unavailable. If TCP FastOpen is required, set at least one of the related parameters","attr":{"relatedParameters":["tcpFastOpenServer","tcpFastOpenClient","tcpFastOpenQueueSize"]}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:31.220+00:00"},"s":"I",  "c":"STORAGE",  "id":22270,   "ctx":"initandlisten","msg":"Storage engine to use detected by data files","attr":{"dbpath":"/data/db","storageEngine":"wiredTiger"}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:31.220+00:00"},"s":"I",  "c":"STORAGE",  "id":22297,   "ctx":"initandlisten","msg":"Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem","tags":["startupWarnings"]}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:31.220+00:00"},"s":"I",  "c":"STORAGE",  "id":22315,   "ctx":"initandlisten","msg":"Opening WiredTiger","attr":{"config":"create,cache_size=1372M,session_max=33000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,remove=true,path=journal,compressor=snappy),builtin_extension_config=(zstd=(compression_level=6)),file_manager=(close_idle_time=600,close_scan_interval=10,close_handle_minimum=2000),statistics_log=(wait=0),json_output=(error,message),verbose=[recovery_progress:1,checkpoint_progress:1,compact_progress:1,live_restore_progress:1,backup:0,checkpoint:0,compact:0,eviction:0,fileops:0,history_store:0,live_restore:0,recovery:0,rts:0,salvage:0,tiered:0,timestamp:0,transaction:0,verify:0,log:0],prefetch=(available=true,default=false),"}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:31.239+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907051,"ts_usec":239810,"thread":"1:0x7a65a61d2400","session_name":"wiredtiger_open","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"opening the WiredTiger library"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:31.447+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907051,"ts_usec":447740,"thread":"1:0x7a65a61d2400","session_name":"connection","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"connection configuration string parsing completed"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:31.451+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907051,"ts_usec":451483,"thread":"1:0x7a65a61d2400","session_name":"connection","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"starting WiredTiger utility threads"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:31.489+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907051,"ts_usec":489426,"thread":"1:0x7a65a61d2400","session_name":"connection","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"starting WiredTiger recovery"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:31.490+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907051,"ts_usec":490188,"thread":"1:0x7a65a61d2400","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","log_id":1000000,"category_id":33,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"Recovering log 2 through 3"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:31.971+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907051,"ts_usec":971839,"thread":"1:0x7a65a61d2400","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","log_id":1000000,"category_id":33,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"Recovering log 3 through 3"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:32.252+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907052,"ts_usec":252037,"thread":"1:0x7a65a61d2400","session_name":"txn-recover","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"scanning metadata to find the largest file ID"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:32.253+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907052,"ts_usec":252937,"thread":"1:0x7a65a61d2400","session_name":"txn-recover","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"largest file ID found in the metadata 10"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:32.254+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907052,"ts_usec":254869,"thread":"1:0x7a65a61d2400","session_name":"txn-recover","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"Main recovery loop: starting at 2,7552 to 3,256"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:32.451+00:00"},"s":"I",  "c":"WTEVICT",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907052,"ts_usec":451122,"thread":"1:0x7a65a61d2400","session_name":"txn-recover","category":"WT_VERB_EVICTION","log_id":1000000,"category_id":15,"verbose_level":"INFO","verbose_level_id":0,"msg":"starting eviction threads"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:32.466+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907052,"ts_usec":465972,"thread":"1:0x7a65a61d2400","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","log_id":1000000,"category_id":33,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"Recovering log 2 through 3"}}}
+travelmemory_frontend  |
+travelmemory_frontend  | > frontend@0.1.0 start
+travelmemory_frontend  | > react-scripts start
+travelmemory_frontend  |
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:32.671+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907052,"ts_usec":670950,"thread":"1:0x7a65a61d2400","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","log_id":1000000,"category_id":33,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"Recovering log 3 through 3"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:32.786+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907052,"ts_usec":786077,"thread":"1:0x7a65a61d2400","session_name":"txn-recover","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"recovery log replay has successfully finished and ran for 1296 milliseconds"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:32.786+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907052,"ts_usec":786911,"thread":"1:0x7a65a61d2400","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","log_id":1000000,"category_id":33,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"Set global recovery timestamp: (0, 0)"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:32.787+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907052,"ts_usec":787363,"thread":"1:0x7a65a61d2400","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","log_id":1000000,"category_id":33,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"Set global oldest timestamp: (0, 0)"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:32.787+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907052,"ts_usec":787504,"thread":"1:0x7a65a61d2400","session_name":"txn-recover","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"[RECOVERY_RTS] performing recovery rollback_to_stable with stable_timestamp=(0, 0) and oldest_timestamp=(0, 0)"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:32.805+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907052,"ts_usec":805102,"thread":"1:0x7a65a61d2400","session_name":"txn-recover","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"recovery rollback to stable has successfully finished and ran for 17 milliseconds"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:32.806+00:00"},"s":"I",  "c":"WTEVICT",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907052,"ts_usec":806235,"thread":"1:0x7a65a61d2400","session_name":"txn-recover","category":"WT_VERB_EVICTION","log_id":1000000,"category_id":15,"verbose_level":"INFO","verbose_level_id":0,"msg":"stopping eviction threads"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:32.815+00:00"},"s":"I",  "c":"WTEVICT",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907052,"ts_usec":814092,"thread":"1:0x7a65a61d2400","session_name":"txn-recover","category":"WT_VERB_EVICTION","log_id":1000000,"category_id":15,"verbose_level":"INFO","verbose_level_id":0,"msg":"waiting for eviction threads to stop"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:32.827+00:00"},"s":"I",  "c":"WTEVICT",  "id":22430,   "ctx":"thread8","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907052,"ts_usec":827122,"thread":"1:0x7a65a21a86c0","session_name":"eviction-server","category":"WT_VERB_EVICTION","log_id":1000000,"category_id":15,"verbose_level":"INFO","verbose_level_id":0,"msg":"eviction thread exiting"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:32.853+00:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907052,"ts_usec":853600,"thread":"1:0x7a65a61d2400","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT","log_id":1000000,"category_id":5,"verbose_level":"INFO","verbose_level_id":0,"msg":"Checkpoint requested at stable timestamp (0, 0)"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:32.854+00:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907052,"ts_usec":854341,"thread":"1:0x7a65a61d2400","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","log_id":1000000,"category_id":7,"verbose_level":"INFO","verbose_level_id":0,"msg":"saving checkpoint snapshot min: 1, snapshot max: 1 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 24"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:32.877+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907052,"ts_usec":877590,"thread":"1:0x7a65a61d2400","session_name":"txn-recover","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"recovery checkpoint has successfully finished and ran for 34 milliseconds"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:32.877+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907052,"ts_usec":877875,"thread":"1:0x7a65a61d2400","session_name":"txn-recover","category":"WT_VERB_RECOVERY","log_id":1493201,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"recovery was completed successfully and took 1388ms, including 1296ms for the log replay, 17ms for the rollback to stable, and 34ms for the checkpoint."}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:32.878+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907052,"ts_usec":877997,"thread":"1:0x7a65a61d2400","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","log_id":1493201,"category_id":33,"verbose_level":"INFO","verbose_level_id":0,"msg":"recovery was completed successfully and took 1388ms, including 1296ms for the log replay, 17ms for the rollback to stable, and 34ms for the checkpoint."}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:32.886+00:00"},"s":"I",  "c":"WTEVICT",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907052,"ts_usec":886104,"thread":"1:0x7a65a61d2400","session_name":"connection","category":"WT_VERB_EVICTION","log_id":1000000,"category_id":15,"verbose_level":"INFO","verbose_level_id":0,"msg":"starting eviction threads"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:32.902+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907052,"ts_usec":902500,"thread":"1:0x7a65a61d2400","session_name":"connection","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"WiredTiger utility threads started successfully"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:32.902+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907052,"ts_usec":902704,"thread":"1:0x7a65a61d2400","session_name":"connection","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"the WiredTiger library has successfully opened"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:32.902+00:00"},"s":"I",  "c":"STORAGE",  "id":4795906, "ctx":"initandlisten","msg":"WiredTiger opened","attr":{"durationMillis":1682}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:32.902+00:00"},"s":"I",  "c":"RECOVERY", "id":23987,   "ctx":"initandlisten","msg":"WiredTiger recoveryTimestamp","attr":{"recoveryTimestamp":{"$timestamp":{"t":0,"i":0}}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:32.902+00:00"},"s":"I",  "c":"STORAGE",  "id":9086700, "ctx":"initandlisten","msg":"WiredTiger session cache max value has been set","attr":{"sessionCacheMax":16500}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:32.917+00:00"},"s":"I",  "c":"STORAGE",  "id":10158000,"ctx":"initandlisten","msg":"Opening spill WiredTiger","attr":{"config":"create,cache_size=100M,session_max=1024,eviction=(threads_min=1,threads_max=1),eviction_dirty_target=5MB,eviction_dirty_trigger=80MB,eviction_updates_trigger=80MB,config_base=false,statistics=(fast),log=(enabled=false),builtin_extension_config=(zstd=(compression_level=-7)),file_manager=(close_idle_time=600,close_scan_interval=10,close_handle_minimum=2000),statistics_log=(wait=0),json_output=(error,message),verbose=[recovery_progress:1,checkpoint_progress:1,compact_progress:1,live_restore_progress:1,backup:0,checkpoint:0,compact:0,eviction:0,fileops:0,history_store:0,live_restore:0,recovery:0,rts:0,salvage:0,tiered:0,timestamp:0,transaction:0,verify:0,log:0],"}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:32.930+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907052,"ts_usec":929921,"thread":"1:0x7a65a61d2400","session_name":"wiredtiger_open","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"opening the WiredTiger library"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:32.940+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907052,"ts_usec":940669,"thread":"1:0x7a65a61d2400","session_name":"connection","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"connection configuration string parsing completed"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:32.981+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907052,"ts_usec":981165,"thread":"1:0x7a65a61d2400","session_name":"connection","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"starting WiredTiger utility threads"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:32.984+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907052,"ts_usec":984730,"thread":"1:0x7a65a61d2400","session_name":"connection","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"starting WiredTiger recovery"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:32.985+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907052,"ts_usec":985110,"thread":"1:0x7a65a61d2400","session_name":"txn-recover","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"scanning metadata to find the largest file ID"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:32.985+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907052,"ts_usec":985614,"thread":"1:0x7a65a61d2400","session_name":"txn-recover","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"largest file ID found in the metadata 0"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:32.985+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907052,"ts_usec":985739,"thread":"1:0x7a65a61d2400","session_name":"txn-recover","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"recovery log replay has successfully finished and ran for 0 milliseconds"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:32.985+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907052,"ts_usec":985826,"thread":"1:0x7a65a61d2400","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","log_id":1000000,"category_id":33,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"Set global recovery timestamp: (0, 0)"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:32.985+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907052,"ts_usec":985881,"thread":"1:0x7a65a61d2400","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","log_id":1000000,"category_id":33,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"Set global oldest timestamp: (0, 0)"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:32.985+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907052,"ts_usec":985950,"thread":"1:0x7a65a61d2400","session_name":"txn-recover","category":"WT_VERB_RECOVERY","log_id":1493201,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"recovery was completed successfully and took 1ms, including 0ms for the log replay, 0ms for the rollback to stable, and 0ms for the checkpoint."}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:32.986+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907052,"ts_usec":985992,"thread":"1:0x7a65a61d2400","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","log_id":1493201,"category_id":33,"verbose_level":"INFO","verbose_level_id":0,"msg":"recovery was completed successfully and took 1ms, including 0ms for the log replay, 0ms for the rollback to stable, and 0ms for the checkpoint."}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:33.034+00:00"},"s":"I",  "c":"WTEVICT",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907053,"ts_usec":34263,"thread":"1:0x7a65a61d2400","session_name":"connection","category":"WT_VERB_EVICTION","log_id":1000000,"category_id":15,"verbose_level":"INFO","verbose_level_id":0,"msg":"starting eviction threads"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:33.036+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907053,"ts_usec":36454,"thread":"1:0x7a65a61d2400","session_name":"connection","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"WiredTiger utility threads started successfully"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:33.036+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907053,"ts_usec":36692,"thread":"1:0x7a65a61d2400","session_name":"connection","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"the WiredTiger library has successfully opened"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:33.036+00:00"},"s":"I",  "c":"STORAGE",  "id":10158001,"ctx":"initandlisten","msg":"Spill WiredTiger opened","attr":{"durationMillis":119}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:33.039+00:00"},"s":"I",  "c":"STORAGE",  "id":9529901, "ctx":"initandlisten","msg":"Initializing durable catalog","attr":{"numRecords":3}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:33.041+00:00"},"s":"I",  "c":"STORAGE",  "id":9529902, "ctx":"initandlisten","msg":"Retrieving all idents from storage engine"}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:33.041+00:00"},"s":"I",  "c":"STORAGE",  "id":9529903, "ctx":"initandlisten","msg":"Initializing all collections in durable catalog","attr":{"numEntries":3}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:33.072+00:00"},"s":"W",  "c":"CONTROL",  "id":22120,   "ctx":"initandlisten","msg":"Access control is not enabled for the database. Read and write access to data and configuration is unrestricted","tags":["startupWarnings"]}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:33.074+00:00"},"s":"W",  "c":"CONTROL",  "id":9068900, "ctx":"initandlisten","msg":"For customers running the current memory allocator, we suggest changing the contents of the following sysfsFile","attr":{"allocator":"tcmalloc-google","sysfsFile":"/sys/kernel/mm/transparent_hugepage/enabled","currentValue":"never","desiredValue":"always"},"tags":["startupWarnings"]}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:33.074+00:00"},"s":"W",  "c":"CONTROL",  "id":9068900, "ctx":"initandlisten","msg":"For customers running the current memory allocator, we suggest changing the contents of the following sysfsFile","attr":{"allocator":"tcmalloc-google","sysfsFile":"/sys/kernel/mm/transparent_hugepage/defrag","currentValue":"madvise","desiredValue":"defer+madvise"},"tags":["startupWarnings"]}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:33.074+00:00"},"s":"W",  "c":"CONTROL",  "id":8640302, "ctx":"initandlisten","msg":"We suggest setting the contents of sysfsFile to 0.","attr":{"sysfsFile":"/sys/kernel/mm/transparent_hugepage/khugepaged/max_ptes_none","currentValue":511},"tags":["startupWarnings"]}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:33.075+00:00"},"s":"W",  "c":"CONTROL",  "id":8386700, "ctx":"initandlisten","msg":"We suggest setting swappiness to 0 or 1, as swapping can cause performance problems.","attr":{"sysfsFile":"/proc/sys/vm/swappiness","currentValue":60},"tags":["startupWarnings"]}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:33.084+00:00"},"s":"I",  "c":"NETWORK",  "id":4915702, "ctx":"initandlisten","msg":"Updated wire specification","attr":{"oldSpec":{"incomingExternalClient":{"minWireVersion":0,"maxWireVersion":27},"incomingInternalClient":{"minWireVersion":0,"maxWireVersion":27},"outgoing":{"minWireVersion":6,"maxWireVersion":27},"isInternalClient":true},"newSpec":{"incomingExternalClient":{"minWireVersion":0,"maxWireVersion":27},"incomingInternalClient":{"minWireVersion":27,"maxWireVersion":27},"outgoing":{"minWireVersion":27,"maxWireVersion":27},"isInternalClient":true}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:33.085+00:00"},"s":"I",  "c":"REPL",     "id":5853300, "ctx":"initandlisten","msg":"current featureCompatibilityVersion value","attr":{"featureCompatibilityVersion":"8.2","context":"startup"}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:33.085+00:00"},"s":"I",  "c":"STORAGE",  "id":5071100, "ctx":"initandlisten","msg":"Clearing temp directory"}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:33.086+00:00"},"s":"I",  "c":"STORAGE",  "id":10682200,"ctx":"initandlisten","msg":"Dropping spill idents","attr":{"numIdents":0}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:33.096+00:00"},"s":"I",  "c":"CONTROL",  "id":6608200, "ctx":"initandlisten","msg":"Initializing cluster server parameters from disk"}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:33.096+00:00"},"s":"I",  "c":"CONTROL",  "id":20536,   "ctx":"initandlisten","msg":"Flow Control is enabled on this deployment"}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:33.108+00:00"},"s":"I",  "c":"FTDC",     "id":20625,   "ctx":"initandlisten","msg":"Initializing full-time diagnostic data capture","attr":{"dataDirectory":"/data/db/diagnostic.data"}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:33.122+00:00"},"s":"I",  "c":"REPL",     "id":6015317, "ctx":"initandlisten","msg":"Setting new configuration state","attr":{"newState":"ConfigReplicationDisabled","oldState":"ConfigPreStart"}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:33.123+00:00"},"s":"I",  "c":"STORAGE",  "id":22262,   "ctx":"initandlisten","msg":"Timestamp monitor starting"}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:33.123+00:00"},"s":"I",  "c":"STORAGE",  "id":7333401, "ctx":"initandlisten","msg":"Starting the DiskSpaceMonitor"}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:33.138+00:00"},"s":"I",  "c":"NETWORK",  "id":23015,   "ctx":"listener","msg":"Listening on","attr":{"address":"/tmp/mongodb-27017.sock"}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:33.139+00:00"},"s":"I",  "c":"NETWORK",  "id":23015,   "ctx":"listener","msg":"Listening on","attr":{"address":"0.0.0.0:27017"}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:33.139+00:00"},"s":"I",  "c":"NETWORK",  "id":23016,   "ctx":"listener","msg":"Waiting for connections","attr":{"port":27017,"ssl":"off"}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:57:33.139+00:00"},"s":"I",  "c":"CONTROL",  "id":8423403, "ctx":"initandlisten","msg":"mongod startup complete","attr":{"Summary of time elapsed":{"Startup from clean shutdown?":true,"Statistics":{"setUpPeriodicRunnerMillis":0,"setUpOCSPMillis":0,"setUpTransportLayerMillis":9,"initSyncCrashRecoveryMillis":0,"createLockFileMillis":0,"getStorageEngineMetadataMillis":0,"validateMetadataMillis":0,"createStorageEngineMillis":1821,"writePIDMillis":6,"initializeFCVForIndexMillis":10,"dropAbandonedIdentsMillis":0,"standaloneClusterParamsMillis":1,"userAndRolesGraphMillis":0,"waitForMajorityServiceMillis":1,"startUpReplCoordMillis":3,"recoverChangeStreamMillis":0,"logStartupOptionsMillis":0,"startUpTransportLayerMillis":1,"initAndListenTotalMillis":1933}}}}
+travelmemory_backend   | Server started at http://localhost:3001
+travelmemory_frontend  | Browserslist: caniuse-lite is outdated. Please run:
+travelmemory_frontend  |   npx update-browserslist-db@latest
+travelmemory_frontend  |   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+travelmemory_frontend  | (node:25) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+travelmemory_frontend  | (Use `node --trace-deprecation ...` to show where the warning was created)
+travelmemory_frontend  | (node:25) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+travelmemory_frontend  | Starting the development server...
+travelmemory_frontend  |
+travelmemory_frontend  | Compiled successfully!
+travelmemory_frontend  |
+travelmemory_frontend  | You can now view frontend in the browser.
+travelmemory_frontend  |
+travelmemory_frontend  |   Local:            http://localhost:3000
+travelmemory_frontend  |   On Your Network:  http://172.18.0.4:3000
+travelmemory_frontend  |
+travelmemory_frontend  | Note that the development build is not optimized.
+travelmemory_frontend  | To create a production build, use npm run build.
+travelmemory_frontend  |
+travelmemory_frontend  | webpack compiled successfully
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:58:33.070+00:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907113,"ts_usec":70085,"thread":"1:0x7a659598f6c0","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","log_id":1000000,"category_id":7,"verbose_level":"INFO","verbose_level_id":0,"msg":"saving checkpoint snapshot min: 3, snapshot max: 3 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 24"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:33.122+00:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907173,"ts_usec":122679,"thread":"1:0x7a659598f6c0","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","log_id":1000000,"category_id":7,"verbose_level":"INFO","verbose_level_id":0,"msg":"saving checkpoint snapshot min: 5, snapshot max: 5 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 24"}}}
+Gracefully Stopping... press Ctrl+C again to force
+Container travelmemory_frontend Stopping
+Container travelmemory_frontend Stopped
+Container travelmemory_backend Stopping
+Container travelmemory_backend Stopped g   w Enable Watch   d Detach
+Container travelmemory_database Stopping
+Container travelmemory_database Stopped
+
+
+
+
+C:\Users\Hirensinh\Documents\GitHub\TravelMemory>docker-compose up
+[+] up 1/1
+ ✔ Container travelmemory_frontend Recreated                                                                        0.4s
+Attaching to travelmemory_backend, travelmemory_database, travelmemory_frontend
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:50.828+00:00"},"s":"I",  "c":"-",        "id":8991200, "ctx":"main","msg":"Shuffling initializers","attr":{"seed":3091748123}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:50.882+00:00"},"s":"I",  "c":"CONTROL",  "id":97374,   "ctx":"main","msg":"Automatically disabling TLS 1.0 and TLS 1.1, to force-enable TLS 1.1 specify --sslDisabledProtocols 'TLS1_0'; to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'"}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:50.885+00:00"},"s":"I",  "c":"NETWORK",  "id":4915701, "ctx":"main","msg":"Initialized wire specification","attr":{"spec":{"incomingExternalClient":{"minWireVersion":0,"maxWireVersion":27},"incomingInternalClient":{"minWireVersion":0,"maxWireVersion":27},"outgoing":{"minWireVersion":6,"maxWireVersion":27},"isInternalClient":true}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:50.894+00:00"},"s":"I",  "c":"CONTROL",  "id":5945603, "ctx":"main","msg":"Multi threading initialized"}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:50.895+00:00"},"s":"I",  "c":"CONTROL",  "id":4615611, "ctx":"initandlisten","msg":"MongoDB starting","attr":{"pid":1,"port":27017,"dbPath":"/data/db","architecture":"64-bit","host":"7daeb921dc29"}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:50.895+00:00"},"s":"I",  "c":"CONTROL",  "id":23403,   "ctx":"initandlisten","msg":"Build Info","attr":{"buildInfo":{"version":"8.2.11","gitVersion":"ee01d36638a00a07a6aa42ee80a125890f11aeed","openSSLVersion":"OpenSSL 3.0.13 30 Jan 2024","modules":[],"allocator":"tcmalloc-google","environment":{"distmod":"ubuntu2404","distarch":"x86_64","target_arch":"x86_64"}}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:50.898+00:00"},"s":"I",  "c":"CONTROL",  "id":51765,   "ctx":"initandlisten","msg":"Operating System","attr":{"os":{"name":"Ubuntu","version":"24.04"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:50.898+00:00"},"s":"I",  "c":"CONTROL",  "id":21951,   "ctx":"initandlisten","msg":"Options set by command line","attr":{"options":{"net":{"bindIp":"*"}}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:50.907+00:00"},"s":"W",  "c":"NETWORK",  "id":11621101,"ctx":"initandlisten","msg":"Overriding max connections to honor `capMemoryConsumptionForPreAuthBuffers` settings","attr":{"limit":48246}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:50.908+00:00"},"s":"I",  "c":"NETWORK",  "id":4648601, "ctx":"initandlisten","msg":"Implicit TCP FastOpen unavailable. If TCP FastOpen is required, set at least one of the related parameters","attr":{"relatedParameters":["tcpFastOpenServer","tcpFastOpenClient","tcpFastOpenQueueSize"]}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:50.912+00:00"},"s":"I",  "c":"STORAGE",  "id":22270,   "ctx":"initandlisten","msg":"Storage engine to use detected by data files","attr":{"dbpath":"/data/db","storageEngine":"wiredTiger"}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:50.913+00:00"},"s":"I",  "c":"STORAGE",  "id":22297,   "ctx":"initandlisten","msg":"Using the XFS filesystem is strongly recommended with the WiredTiger storage engine. See http://dochub.mongodb.org/core/prodnotes-filesystem","tags":["startupWarnings"]}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:50.913+00:00"},"s":"I",  "c":"STORAGE",  "id":22315,   "ctx":"initandlisten","msg":"Opening WiredTiger","attr":{"config":"create,cache_size=1372M,session_max=33000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,remove=true,path=journal,compressor=snappy),builtin_extension_config=(zstd=(compression_level=6)),file_manager=(close_idle_time=600,close_scan_interval=10,close_handle_minimum=2000),statistics_log=(wait=0),json_output=(error,message),verbose=[recovery_progress:1,checkpoint_progress:1,compact_progress:1,live_restore_progress:1,backup:0,checkpoint:0,compact:0,eviction:0,fileops:0,history_store:0,live_restore:0,recovery:0,rts:0,salvage:0,tiered:0,timestamp:0,transaction:0,verify:0,log:0],prefetch=(available=true,default=false),"}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:50.928+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907190,"ts_usec":928277,"thread":"1:0x746c158ac400","session_name":"wiredtiger_open","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"opening the WiredTiger library"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:51.127+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907191,"ts_usec":124475,"thread":"1:0x746c158ac400","session_name":"connection","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"connection configuration string parsing completed"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:51.135+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907191,"ts_usec":135108,"thread":"1:0x746c158ac400","session_name":"connection","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"starting WiredTiger utility threads"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:51.162+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907191,"ts_usec":162235,"thread":"1:0x746c158ac400","session_name":"connection","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"starting WiredTiger recovery"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:51.163+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907191,"ts_usec":163736,"thread":"1:0x746c158ac400","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","log_id":1000000,"category_id":33,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"Recovering log 3 through 4"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:51.387+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907191,"ts_usec":387428,"thread":"1:0x746c158ac400","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","log_id":1000000,"category_id":33,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"Recovering log 4 through 4"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:51.662+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907191,"ts_usec":661945,"thread":"1:0x746c158ac400","session_name":"txn-recover","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"scanning metadata to find the largest file ID"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:51.663+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907191,"ts_usec":663312,"thread":"1:0x746c158ac400","session_name":"txn-recover","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"largest file ID found in the metadata 10"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:51.666+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907191,"ts_usec":666075,"thread":"1:0x746c158ac400","session_name":"txn-recover","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"Main recovery loop: starting at 3,8832 to 4,256"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:51.882+00:00"},"s":"I",  "c":"WTEVICT",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907191,"ts_usec":882457,"thread":"1:0x746c158ac400","session_name":"txn-recover","category":"WT_VERB_EVICTION","log_id":1000000,"category_id":15,"verbose_level":"INFO","verbose_level_id":0,"msg":"starting eviction threads"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:51.886+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907191,"ts_usec":886506,"thread":"1:0x746c158ac400","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","log_id":1000000,"category_id":33,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"Recovering log 3 through 4"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:52.050+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907192,"ts_usec":50583,"thread":"1:0x746c158ac400","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","log_id":1000000,"category_id":33,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"Recovering log 4 through 4"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:52.165+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907192,"ts_usec":165182,"thread":"1:0x746c158ac400","session_name":"txn-recover","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"recovery log replay has successfully finished and ran for 1002 milliseconds"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:52.165+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907192,"ts_usec":165618,"thread":"1:0x746c158ac400","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","log_id":1000000,"category_id":33,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"Set global recovery timestamp: (0, 0)"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:52.165+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907192,"ts_usec":165789,"thread":"1:0x746c158ac400","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","log_id":1000000,"category_id":33,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"Set global oldest timestamp: (0, 0)"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:52.165+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907192,"ts_usec":165909,"thread":"1:0x746c158ac400","session_name":"txn-recover","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"[RECOVERY_RTS] performing recovery rollback_to_stable with stable_timestamp=(0, 0) and oldest_timestamp=(0, 0)"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:52.180+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907192,"ts_usec":179642,"thread":"1:0x746c158ac400","session_name":"txn-recover","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"recovery rollback to stable has successfully finished and ran for 13 milliseconds"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:52.183+00:00"},"s":"I",  "c":"WTEVICT",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907192,"ts_usec":182883,"thread":"1:0x746c158ac400","session_name":"txn-recover","category":"WT_VERB_EVICTION","log_id":1000000,"category_id":15,"verbose_level":"INFO","verbose_level_id":0,"msg":"stopping eviction threads"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:52.184+00:00"},"s":"I",  "c":"WTEVICT",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907192,"ts_usec":184028,"thread":"1:0x746c158ac400","session_name":"txn-recover","category":"WT_VERB_EVICTION","log_id":1000000,"category_id":15,"verbose_level":"INFO","verbose_level_id":0,"msg":"waiting for eviction threads to stop"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:52.190+00:00"},"s":"I",  "c":"WTEVICT",  "id":22430,   "ctx":"thread8","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907192,"ts_usec":190777,"thread":"1:0x746c118826c0","session_name":"eviction-server","category":"WT_VERB_EVICTION","log_id":1000000,"category_id":15,"verbose_level":"INFO","verbose_level_id":0,"msg":"eviction thread exiting"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:52.198+00:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907192,"ts_usec":197961,"thread":"1:0x746c158ac400","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT","log_id":1000000,"category_id":5,"verbose_level":"INFO","verbose_level_id":0,"msg":"Checkpoint requested at stable timestamp (0, 0)"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:52.204+00:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907192,"ts_usec":203984,"thread":"1:0x746c158ac400","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","log_id":1000000,"category_id":7,"verbose_level":"INFO","verbose_level_id":0,"msg":"saving checkpoint snapshot min: 1, snapshot max: 1 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 38"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:52.234+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907192,"ts_usec":234626,"thread":"1:0x746c158ac400","session_name":"txn-recover","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"recovery checkpoint has successfully finished and ran for 43 milliseconds"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:52.235+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907192,"ts_usec":235344,"thread":"1:0x746c158ac400","session_name":"txn-recover","category":"WT_VERB_RECOVERY","log_id":1493201,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"recovery was completed successfully and took 1072ms, including 1002ms for the log replay, 13ms for the rollback to stable, and 43ms for the checkpoint."}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:52.235+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907192,"ts_usec":235529,"thread":"1:0x746c158ac400","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","log_id":1493201,"category_id":33,"verbose_level":"INFO","verbose_level_id":0,"msg":"recovery was completed successfully and took 1072ms, including 1002ms for the log replay, 13ms for the rollback to stable, and 43ms for the checkpoint."}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:52.249+00:00"},"s":"I",  "c":"WTEVICT",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907192,"ts_usec":249141,"thread":"1:0x746c158ac400","session_name":"connection","category":"WT_VERB_EVICTION","log_id":1000000,"category_id":15,"verbose_level":"INFO","verbose_level_id":0,"msg":"starting eviction threads"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:52.264+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907192,"ts_usec":263524,"thread":"1:0x746c158ac400","session_name":"connection","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"WiredTiger utility threads started successfully"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:52.279+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907192,"ts_usec":279624,"thread":"1:0x746c158ac400","session_name":"connection","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"the WiredTiger library has successfully opened"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:52.279+00:00"},"s":"I",  "c":"STORAGE",  "id":4795906, "ctx":"initandlisten","msg":"WiredTiger opened","attr":{"durationMillis":1366}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:52.279+00:00"},"s":"I",  "c":"RECOVERY", "id":23987,   "ctx":"initandlisten","msg":"WiredTiger recoveryTimestamp","attr":{"recoveryTimestamp":{"$timestamp":{"t":0,"i":0}}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:52.279+00:00"},"s":"I",  "c":"STORAGE",  "id":9086700, "ctx":"initandlisten","msg":"WiredTiger session cache max value has been set","attr":{"sessionCacheMax":16500}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:52.283+00:00"},"s":"I",  "c":"STORAGE",  "id":10158000,"ctx":"initandlisten","msg":"Opening spill WiredTiger","attr":{"config":"create,cache_size=100M,session_max=1024,eviction=(threads_min=1,threads_max=1),eviction_dirty_target=5MB,eviction_dirty_trigger=80MB,eviction_updates_trigger=80MB,config_base=false,statistics=(fast),log=(enabled=false),builtin_extension_config=(zstd=(compression_level=-7)),file_manager=(close_idle_time=600,close_scan_interval=10,close_handle_minimum=2000),statistics_log=(wait=0),json_output=(error,message),verbose=[recovery_progress:1,checkpoint_progress:1,compact_progress:1,live_restore_progress:1,backup:0,checkpoint:0,compact:0,eviction:0,fileops:0,history_store:0,live_restore:0,recovery:0,rts:0,salvage:0,tiered:0,timestamp:0,transaction:0,verify:0,log:0],"}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:52.302+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907192,"ts_usec":302592,"thread":"1:0x746c158ac400","session_name":"wiredtiger_open","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"opening the WiredTiger library"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:52.315+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907192,"ts_usec":314982,"thread":"1:0x746c158ac400","session_name":"connection","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"connection configuration string parsing completed"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:52.358+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907192,"ts_usec":358542,"thread":"1:0x746c158ac400","session_name":"connection","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"starting WiredTiger utility threads"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:52.360+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907192,"ts_usec":360060,"thread":"1:0x746c158ac400","session_name":"connection","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"starting WiredTiger recovery"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:52.360+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907192,"ts_usec":360551,"thread":"1:0x746c158ac400","session_name":"txn-recover","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"scanning metadata to find the largest file ID"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:52.360+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907192,"ts_usec":360838,"thread":"1:0x746c158ac400","session_name":"txn-recover","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"largest file ID found in the metadata 0"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:52.360+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907192,"ts_usec":360927,"thread":"1:0x746c158ac400","session_name":"txn-recover","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"recovery log replay has successfully finished and ran for 0 milliseconds"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:52.361+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907192,"ts_usec":361004,"thread":"1:0x746c158ac400","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","log_id":1000000,"category_id":33,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"Set global recovery timestamp: (0, 0)"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:52.361+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907192,"ts_usec":361068,"thread":"1:0x746c158ac400","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","log_id":1000000,"category_id":33,"verbose_level":"DEBUG_1","verbose_level_id":1,"msg":"Set global oldest timestamp: (0, 0)"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:52.361+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907192,"ts_usec":361167,"thread":"1:0x746c158ac400","session_name":"txn-recover","category":"WT_VERB_RECOVERY","log_id":1493201,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"recovery was completed successfully and took 0ms, including 0ms for the log replay, 0ms for the rollback to stable, and 0ms for the checkpoint."}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:52.361+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907192,"ts_usec":361239,"thread":"1:0x746c158ac400","session_name":"txn-recover","category":"WT_VERB_RECOVERY_PROGRESS","log_id":1493201,"category_id":33,"verbose_level":"INFO","verbose_level_id":0,"msg":"recovery was completed successfully and took 0ms, including 0ms for the log replay, 0ms for the rollback to stable, and 0ms for the checkpoint."}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:52.410+00:00"},"s":"I",  "c":"WTEVICT",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907192,"ts_usec":410026,"thread":"1:0x746c158ac400","session_name":"connection","category":"WT_VERB_EVICTION","log_id":1000000,"category_id":15,"verbose_level":"INFO","verbose_level_id":0,"msg":"starting eviction threads"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:52.414+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907192,"ts_usec":414885,"thread":"1:0x746c158ac400","session_name":"connection","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"WiredTiger utility threads started successfully"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:52.416+00:00"},"s":"I",  "c":"WTRECOV",  "id":22430,   "ctx":"initandlisten","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907192,"ts_usec":416336,"thread":"1:0x746c158ac400","session_name":"connection","category":"WT_VERB_RECOVERY","log_id":1000000,"category_id":32,"verbose_level":"INFO","verbose_level_id":0,"msg":"the WiredTiger library has successfully opened"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:52.427+00:00"},"s":"I",  "c":"STORAGE",  "id":10158001,"ctx":"initandlisten","msg":"Spill WiredTiger opened","attr":{"durationMillis":144}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:52.429+00:00"},"s":"I",  "c":"STORAGE",  "id":9529901, "ctx":"initandlisten","msg":"Initializing durable catalog","attr":{"numRecords":3}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:52.444+00:00"},"s":"I",  "c":"STORAGE",  "id":9529902, "ctx":"initandlisten","msg":"Retrieving all idents from storage engine"}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:52.446+00:00"},"s":"I",  "c":"STORAGE",  "id":9529903, "ctx":"initandlisten","msg":"Initializing all collections in durable catalog","attr":{"numEntries":3}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:52.460+00:00"},"s":"W",  "c":"CONTROL",  "id":22120,   "ctx":"initandlisten","msg":"Access control is not enabled for the database. Read and write access to data and configuration is unrestricted","tags":["startupWarnings"]}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:52.461+00:00"},"s":"W",  "c":"CONTROL",  "id":9068900, "ctx":"initandlisten","msg":"For customers running the current memory allocator, we suggest changing the contents of the following sysfsFile","attr":{"allocator":"tcmalloc-google","sysfsFile":"/sys/kernel/mm/transparent_hugepage/enabled","currentValue":"never","desiredValue":"always"},"tags":["startupWarnings"]}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:52.461+00:00"},"s":"W",  "c":"CONTROL",  "id":9068900, "ctx":"initandlisten","msg":"For customers running the current memory allocator, we suggest changing the contents of the following sysfsFile","attr":{"allocator":"tcmalloc-google","sysfsFile":"/sys/kernel/mm/transparent_hugepage/defrag","currentValue":"madvise","desiredValue":"defer+madvise"},"tags":["startupWarnings"]}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:52.461+00:00"},"s":"W",  "c":"CONTROL",  "id":8640302, "ctx":"initandlisten","msg":"We suggest setting the contents of sysfsFile to 0.","attr":{"sysfsFile":"/sys/kernel/mm/transparent_hugepage/khugepaged/max_ptes_none","currentValue":511},"tags":["startupWarnings"]}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:52.462+00:00"},"s":"W",  "c":"CONTROL",  "id":8386700, "ctx":"initandlisten","msg":"We suggest setting swappiness to 0 or 1, as swapping can cause performance problems.","attr":{"sysfsFile":"/proc/sys/vm/swappiness","currentValue":60},"tags":["startupWarnings"]}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:52.465+00:00"},"s":"I",  "c":"NETWORK",  "id":4915702, "ctx":"initandlisten","msg":"Updated wire specification","attr":{"oldSpec":{"incomingExternalClient":{"minWireVersion":0,"maxWireVersion":27},"incomingInternalClient":{"minWireVersion":0,"maxWireVersion":27},"outgoing":{"minWireVersion":6,"maxWireVersion":27},"isInternalClient":true},"newSpec":{"incomingExternalClient":{"minWireVersion":0,"maxWireVersion":27},"incomingInternalClient":{"minWireVersion":27,"maxWireVersion":27},"outgoing":{"minWireVersion":27,"maxWireVersion":27},"isInternalClient":true}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:52.466+00:00"},"s":"I",  "c":"REPL",     "id":5853300, "ctx":"initandlisten","msg":"current featureCompatibilityVersion value","attr":{"featureCompatibilityVersion":"8.2","context":"startup"}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:52.476+00:00"},"s":"I",  "c":"STORAGE",  "id":5071100, "ctx":"initandlisten","msg":"Clearing temp directory"}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:52.476+00:00"},"s":"I",  "c":"STORAGE",  "id":10682200,"ctx":"initandlisten","msg":"Dropping spill idents","attr":{"numIdents":0}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:52.479+00:00"},"s":"I",  "c":"CONTROL",  "id":6608200, "ctx":"initandlisten","msg":"Initializing cluster server parameters from disk"}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:52.479+00:00"},"s":"I",  "c":"CONTROL",  "id":20536,   "ctx":"initandlisten","msg":"Flow Control is enabled on this deployment"}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:52.511+00:00"},"s":"I",  "c":"FTDC",     "id":20625,   "ctx":"initandlisten","msg":"Initializing full-time diagnostic data capture","attr":{"dataDirectory":"/data/db/diagnostic.data"}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:52.517+00:00"},"s":"I",  "c":"REPL",     "id":6015317, "ctx":"initandlisten","msg":"Setting new configuration state","attr":{"newState":"ConfigReplicationDisabled","oldState":"ConfigPreStart"}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:52.519+00:00"},"s":"I",  "c":"STORAGE",  "id":22262,   "ctx":"initandlisten","msg":"Timestamp monitor starting"}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:52.521+00:00"},"s":"I",  "c":"STORAGE",  "id":7333401, "ctx":"initandlisten","msg":"Starting the DiskSpaceMonitor"}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:52.544+00:00"},"s":"I",  "c":"NETWORK",  "id":23015,   "ctx":"listener","msg":"Listening on","attr":{"address":"/tmp/mongodb-27017.sock"}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:52.554+00:00"},"s":"I",  "c":"NETWORK",  "id":23015,   "ctx":"listener","msg":"Listening on","attr":{"address":"0.0.0.0:27017"}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:52.554+00:00"},"s":"I",  "c":"NETWORK",  "id":23016,   "ctx":"listener","msg":"Waiting for connections","attr":{"port":27017,"ssl":"off"}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T11:59:52.554+00:00"},"s":"I",  "c":"CONTROL",  "id":8423403, "ctx":"initandlisten","msg":"mongod startup complete","attr":{"Summary of time elapsed":{"Startup from clean shutdown?":true,"Statistics":{"setUpPeriodicRunnerMillis":0,"setUpOCSPMillis":6,"setUpTransportLayerMillis":1,"initSyncCrashRecoveryMillis":0,"createLockFileMillis":0,"getStorageEngineMetadataMillis":0,"validateMetadataMillis":0,"createStorageEngineMillis":1534,"writePIDMillis":0,"initializeFCVForIndexMillis":4,"dropAbandonedIdentsMillis":8,"standaloneClusterParamsMillis":0,"userAndRolesGraphMillis":0,"waitForMajorityServiceMillis":0,"startUpReplCoordMillis":0,"recoverChangeStreamMillis":0,"logStartupOptionsMillis":0,"startUpTransportLayerMillis":15,"initAndListenTotalMillis":1660}}}}
+travelmemory_frontend  |
+travelmemory_frontend  | > frontend@0.1.0 start
+travelmemory_frontend  | > react-scripts start
+travelmemory_frontend  |
+travelmemory_backend   | Server started at http://localhost:3001
+travelmemory_frontend  | Browserslist: caniuse-lite is outdated. Please run:
+travelmemory_frontend  |   npx update-browserslist-db@latest
+travelmemory_frontend  |   Why you should do it regularly: https://github.com/browserslist/update-db#readme
+travelmemory_frontend  | (node:24) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+travelmemory_frontend  | (Use `node --trace-deprecation ...` to show where the warning was created)
+travelmemory_frontend  | (node:24) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+travelmemory_frontend  | Starting the development server...
+travelmemory_frontend  |
+travelmemory_frontend  | One of your dependencies, babel-preset-react-app, is importing the
+travelmemory_frontend  | "@babel/plugin-proposal-private-property-in-object" package without
+travelmemory_frontend  | declaring it in its dependencies. This is currently working because
+travelmemory_frontend  | "@babel/plugin-proposal-private-property-in-object" is already in your
+travelmemory_frontend  | node_modules folder for unrelated reasons, but it may break at any time.
+travelmemory_frontend  |
+travelmemory_frontend  | babel-preset-react-app is part of the create-react-app project, which
+travelmemory_frontend  | is not maintianed anymore. It is thus unlikely that this bug will
+travelmemory_frontend  | ever be fixed. Add "@babel/plugin-proposal-private-property-in-object" to
+travelmemory_frontend  | your devDependencies to work around this error. This will make this message
+travelmemory_frontend  | go away.
+travelmemory_frontend  |
+travelmemory_frontend  | Compiled with warnings.
+travelmemory_frontend  |
+travelmemory_frontend  | [eslint]
+travelmemory_frontend  | src/App.js
+travelmemory_frontend  |   Line 1:8:  'logo' is defined but never used  no-unused-vars
+travelmemory_frontend  |
+travelmemory_frontend  | src/components/pages/AddExperience.js
+travelmemory_frontend  |   Line 27:15:  Expected '===' and instead saw '=='  eqeqeq
+travelmemory_frontend  |
+travelmemory_frontend  | Search for the keywords to learn more about each warning.
+travelmemory_frontend  | To ignore, add // eslint-disable-next-line to the line before.
+travelmemory_frontend  |
+travelmemory_frontend  | WARNING in [eslint]
+travelmemory_frontend  | src/App.js
+travelmemory_frontend  |   Line 1:8:  'logo' is defined but never used  no-unused-vars
+travelmemory_frontend  |
+travelmemory_frontend  | src/components/pages/AddExperience.js
+travelmemory_frontend  |   Line 27:15:  Expected '===' and instead saw '=='  eqeqeq
+travelmemory_frontend  |
+travelmemory_frontend  | webpack compiled with 1 warning
+travelmemory_frontend  | Compiling...
+travelmemory_frontend  | Compiled with warnings.
+travelmemory_frontend  |
+travelmemory_frontend  | [eslint]
+travelmemory_frontend  | src/App.js
+travelmemory_frontend  |   Line 1:8:  'logo' is defined but never used  no-unused-vars
+travelmemory_frontend  |
+travelmemory_frontend  | src/components/pages/AddExperience.js
+travelmemory_frontend  |   Line 27:15:  Expected '===' and instead saw '=='  eqeqeq
+travelmemory_frontend  |
+travelmemory_frontend  | Search for the keywords to learn more about each warning.
+travelmemory_frontend  | To ignore, add // eslint-disable-next-line to the line before.
+travelmemory_frontend  |
+travelmemory_frontend  | WARNING in [eslint]
+travelmemory_frontend  | src/App.js
+travelmemory_frontend  |   Line 1:8:  'logo' is defined but never used  no-unused-vars
+travelmemory_frontend  |
+travelmemory_frontend  | src/components/pages/AddExperience.js
+travelmemory_frontend  |   Line 27:15:  Expected '===' and instead saw '=='  eqeqeq
+travelmemory_frontend  |
+travelmemory_frontend  | webpack compiled with 1 warning
+travelmemory_database  | {"t":{"$date":"2026-07-01T12:00:52.458+00:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907252,"ts_usec":457959,"thread":"1:0x746c050696c0","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","log_id":1000000,"category_id":7,"verbose_level":"INFO","verbose_level_id":0,"msg":"saving checkpoint snapshot min: 3, snapshot max: 3 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 38"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T12:01:52.484+00:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907312,"ts_usec":483053,"thread":"1:0x746c050696c0","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","log_id":1000000,"category_id":7,"verbose_level":"INFO","verbose_level_id":0,"msg":"saving checkpoint snapshot min: 5, snapshot max: 5 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 38"}}}
+travelmemory_database  | {"t":{"$date":"2026-07-01T12:02:52.511+00:00"},"s":"I",  "c":"WTCHKPT",  "id":22430,   "ctx":"Checkpointer","msg":"WiredTiger message","attr":{"message":{"ts_sec":1782907372,"ts_usec":511640,"thread":"1:0x746c050696c0","session_name":"WT_SESSION.checkpoint","category":"WT_VERB_CHECKPOINT_PROGRESS","log_id":1000000,"category_id":7,"verbose_level":"INFO","verbose_level_id":0,"msg":"saving checkpoint snapshot min: 6, snapshot max: 6 snapshot count: 0, oldest timestamp: (0, 0) , meta checkpoint timestamp: (0, 0) base write gen: 38"}}}
+
+
+v View in Docker Desktop   o View Config   w Enable Watch   d Detach
